@@ -35,15 +35,15 @@ module.exports = function(grunt) {
       },
       html: {
         files: ['src/html/*.html', 'src/html/**/*.html'],
-        tasks: ['copy']
+        tasks: ['newer:copy']
       },
       img: {
         files: ['src/img/**'],
-        tasks: ['copy']
+        tasks: ['newer:copy']
       },
       inline: {
         files: ['src/html/*.html', 'src/html/**/*.html', 'build/css/**/*.css'],
-        tasks: ['emailBuilder']
+        tasks: ['newer:emailBuilder']
       }
     },
     browserSync: {
@@ -67,6 +67,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-email-builder');
+  grunt.loadNpmTasks('grunt-newer');
 
   // Default task(s).
   grunt.registerTask('default', ['browserSync', 'watch']);

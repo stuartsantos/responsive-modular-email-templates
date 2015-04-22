@@ -8,7 +8,8 @@
 //reset
 @import '../partials/_reset.scss';
 
-.container {
-  width: 600px;
-  margin: auto;
+.col-2 {
+  .col {
+    width: 300px;
+  }
 }

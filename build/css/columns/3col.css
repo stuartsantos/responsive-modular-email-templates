@@ -27,10 +27,9 @@ table {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/sections/container.scss */
-.container {
-  width: 600px;
-  margin: auto;
+/* line 12, ../../../src/sass/columns/3col.scss */
+.col-3 .col {
+  width: 200px;
 }
 
-/*# sourceMappingURL=container.css.map */
+/*# sourceMappingURL=3col.css.map */
