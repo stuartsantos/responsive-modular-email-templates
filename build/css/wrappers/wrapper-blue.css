@@ -1,0 +1,85 @@
+/***************Reset******************/
+/* line 3, ../../../src/sass/partials/_reset.scss */
+html, body, div, span, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 12, ../../../src/sass/partials/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 17, ../../../src/sass/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 21, ../../../src/sass/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************End Reset**************/
+/* line 11, ../../../src/sass/wrappers/wrapper-blue.scss */
+.body {
+  background: #00a4e4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: aig_futuraregular, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 24, ../../../src/sass/wrappers/wrapper-blue.scss */
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+/* line 27, ../../../src/sass/wrappers/wrapper-blue.scss */
+.wrapper .spacer {
+  width: 10px;
+}
+
+/* line 32, ../../../src/sass/wrappers/wrapper-blue.scss */
+.preheader, .main, .footer {
+  width: 100%;
+  color: #767676;
+}
+
+/* line 37, ../../../src/sass/wrappers/wrapper-blue.scss */
+.preheader, .footer {
+  color: #005984;
+  font-size: 10px;
+}
+/* line 40, ../../../src/sass/wrappers/wrapper-blue.scss */
+.preheader a, .footer a {
+  color: #005984;
+}
+/* line 42, ../../../src/sass/wrappers/wrapper-blue.scss */
+.preheader a:hover, .footer a:hover {
+  text-decoration: none;
+}
+/* line 46, ../../../src/sass/wrappers/wrapper-blue.scss */
+.preheader td, .footer td {
+  padding: 16px;
+}
+
+/* line 51, ../../../src/sass/wrappers/wrapper-blue.scss */
+.main {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px #666;
+}
+
+/*# sourceMappingURL=wrapper-blue.css.map */

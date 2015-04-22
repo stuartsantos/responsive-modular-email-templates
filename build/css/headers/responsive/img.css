@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  /* line 10, ../../../../src/sass/headers/responsive/img.scss */
+  .header img {
+    width: auto !important;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=img.css.map */

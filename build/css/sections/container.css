@@ -1,0 +1,35 @@
+/***************Reset******************/
+/* line 3, ../../../src/sass/partials/_reset.scss */
+html, body, div, span, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 12, ../../../src/sass/partials/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 17, ../../../src/sass/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 21, ../../../src/sass/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************End Reset**************/
+/* line 11, ../../../src/sass/sections/container.scss */
+.container {
+  width: 600px;
+}
+
+/*# sourceMappingURL=container.css.map */

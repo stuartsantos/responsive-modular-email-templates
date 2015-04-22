@@ -1,0 +1,9 @@
+@import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
+@media (max-width: 600px) {
+  /* line 10, ../../../../src/sass/wrappers/responsive/default.scss */
+  .wrapper {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=default.css.map */

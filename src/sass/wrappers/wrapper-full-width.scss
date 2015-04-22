@@ -1,0 +1,53 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  font-family: aig_futuraregular, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  .spacer {
+    width: 10px;
+  }
+}
+
+.preheader, .main, .footer {
+  color: #767676;
+}
+
+.preheader, .footer {
+  font-size: 10px;
+  width: 600px;
+  margin: auto;
+  a {
+    color: #767676;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  td {
+    padding: 16px;
+  }
+}
+
+.main {
+  background: #fff;
+  width: 100%;
+}

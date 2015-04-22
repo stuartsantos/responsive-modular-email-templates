@@ -1,0 +1,14 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../../partials/_variables.scss';
+
+
+@include breakpoint($sub-desktop) {
+  .header img {
+    width: auto !important;
+    max-width: 100%;
+  }
+}

@@ -11,30 +11,27 @@ module.exports = function(grunt) {
         }
       }
     },
-    autoprefixer: {
-      options: {
-        map: true
-      },
-      your_target: {
-        src: 'build/css/partials/*.css'
-      },
-    },
     copy: {
       main: {
         expand: true,
         cwd: 'src/',
-        src: ['html/*.html', 'html/**/*.html'],
+        src: ['html/*.html', 'html/**/*.html', 'img/*', 'img/**/*'],
         dest: 'build/'
       }
     },
+    emailBuilder: {
+      test :{
+        files : [{
+          expand: true,
+          src: ['build/**/*.html'],
+          dest: '.'
+        }]
+      }
+    },
     watch: {
-      js: {
-        files: ['src/js/*.js'],
-        tasks: ['uglify']
-      },
       css: {
         files: ['src/sass/*.scss', 'src/sass/**/*.scss', 'config.rb'],
-        tasks: ['compass', 'autoprefixer']
+        tasks: ['compass']
       },
       html: {
         files: ['src/html/*.html', 'src/html/**/*.html'],
@@ -43,6 +40,10 @@ module.exports = function(grunt) {
       img: {
         files: ['src/img/**'],
         tasks: ['copy']
+      },
+      inline: {
+        files: ['src/html/*.html', 'src/html/**/*.html', 'build/css/**/*.css'],
+        tasks: ['emailBuilder']
       }
     },
     browserSync: {
@@ -51,12 +52,12 @@ module.exports = function(grunt) {
           'build/*.html',
           'build/**/*.html',
           'build/js/*.js',
-          'build/css/partials/*.css'
+          'build/css/**/*.css'
         ]
       },
       options: {
           watchTask: true,
-          server: './build'
+          server: '.'
       }
     }
   });
@@ -64,8 +65,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
-  grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-email-builder');
 
   // Default task(s).
   grunt.registerTask('default', ['browserSync', 'watch']);
