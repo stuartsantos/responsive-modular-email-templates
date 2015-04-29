@@ -20,3 +20,9 @@
     margin-bottom: 32px !important;
   }
 }
+
+.col-2, .col-3 {
+  @include breakpoint($sub-desktop) {
+    width: 100% !important;
+  }
+}

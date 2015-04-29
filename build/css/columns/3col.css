@@ -27,9 +27,9 @@ table {
 }
 
 /****************End Reset**************/
-/* line 12, ../../../src/sass/columns/3col.scss */
-.col-3 .col {
-  width: 200px;
+/* line 11, ../../../src/sass/columns/3col.scss */
+.col-3 {
+  width: 33%;
 }
 
 /*# sourceMappingURL=3col.css.map */

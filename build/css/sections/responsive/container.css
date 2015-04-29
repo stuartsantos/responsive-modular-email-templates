@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
   /* line 8, ../../../../src/sass/sections/responsive/container.scss */
   .container {
-    width: 100%;
+    width: 100% !important;
   }
 }
 

@@ -15,4 +15,11 @@
   }
 }
 
+@media (max-width: 600px) {
+  /* line 24, ../../../../src/sass/wrappers/responsive/blue.scss */
+  .col-2, .col-3 {
+    width: 100% !important;
+  }
+}
+
 /*# sourceMappingURL=blue.css.map */

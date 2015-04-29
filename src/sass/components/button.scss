@@ -1,0 +1,25 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.button {
+  text-align: center;
+  margin: 16px 0;
+  width: 100%;
+  a {
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+    background: #fff;
+    font-family: $futura-med;
+    color: $mint;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+  }
+}

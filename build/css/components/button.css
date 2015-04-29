@@ -27,10 +27,22 @@ table {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/columns/2col.scss */
-.col-2 {
-  width: 50%;
-  margin: auto 0;
+/* line 11, ../../../src/sass/components/button.scss */
+.button {
+  text-align: center;
+  margin: 16px 0;
+  width: 100%;
+}
+/* line 15, ../../../src/sass/components/button.scss */
+.button a {
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  background: #fff;
+  font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
+  color: #2DC4A5;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
 }
 
-/*# sourceMappingURL=2col.css.map */
+/*# sourceMappingURL=button.css.map */

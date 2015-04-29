@@ -5,8 +5,11 @@
 //variables
 @import '../../partials/_variables.scss';
 
-.container {
-  @include breakpoint($sub-desktop) {
-    width: 100% !important;
+.button {
+  a {
+    &:hover {
+      transition: all .5s;
+      background: #ddd !important;
+    }
   }
 }
