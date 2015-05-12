@@ -1,0 +1,16 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.head {
+  font-family: $futura-med;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+}
