@@ -1,20 +1,63 @@
+/*
+
+You can use these comments to help you change any of the text or background colors as well as change the font.
+
+########COLORS#######
+
+To use these colors, you can copy the hash value such as #00a4e4 for aig blue and change either the text color or background color of elements. In order to change the color, you can go to the style tag within the relevant table (<table>) or table cell (<td>) and replace an existing "color" or "background" property with the desired color. If neither of those properties exist in the style tag, you can add them.
+
+The final product would look like this for a table or table cell
+<table style="color: #00a4e4; background: #0073ae;">
+or
+<td style="color: #00a4e4; background: #0073ae;">
+
+primary colors
+aig-blue: #00a4e4;
+dark-aig-blue: #0073ae;
+darker-aig-blue: #005984;
+light-aig-blue: #50c8e8;
+lighter-aig-blue: #ade0ee;
+
+secondary colors
+orange: #e36f1e;
+green: #78a22f;
+red: #c41230;
+yellow: #fdb913;
+purple: #af006e;
+mint: #2DC4A5;
+
+
+##########FONTS##########
+
+To change the font of any table cell (<td>), you can either find the "font-family" property within the style tag and replace it or add the "font-family" property to the style tag of a table cell (<td>).
+
+The final product would look like this for futura regular:
+<td style="font-family: 'aig_futuraregular', Helvetica, Arial, sans-serif;">
+
+futura-reg: 'aig_futuraregular', Helvetica, Arial, sans-serif;
+futura-med: 'aig_futura_medregular', Helvetica, Arial, sans-serif;
+futura-bold: 'aig_futurabold', Helvetica, Arial, sans-serif;
+futura-italic: 'aig_futura_regularitalic', Helvetica, Arial, sans-serif;
+futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
+
+*/
 @import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
 @media (max-width: 600px) {
-  /* line 10, ../../../../src/sass/wrappers/responsive/full-width.scss */
+  /* line 13, ../../../../src/sass/wrappers/responsive/full-width.scss */
   .wrapper, .preheader, .footer, .section {
     width: 100% !important;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 16, ../../../../src/sass/wrappers/responsive/full-width.scss */
+  /* line 19, ../../../../src/sass/wrappers/responsive/full-width.scss */
   .col-2, .col-3 {
     width: 100% !important;
     margin-bottom: 32px !important;
   }
 }
 
-/* line 23, ../../../../src/sass/wrappers/responsive/full-width.scss */
+/* line 26, ../../../../src/sass/wrappers/responsive/full-width.scss */
 table {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;

@@ -41,26 +41,3 @@ futura-italic: 'aig_futura_regularitalic', Helvetica, Arial, sans-serif;
 futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
 
 */
-@import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
-@media (max-width: 600px) {
-  /* line 13, ../../../../src/sass/wrappers/responsive/default.scss */
-  .wrapper, .section {
-    width: 100% !important;
-  }
-}
-
-@media (max-width: 600px) {
-  /* line 19, ../../../../src/sass/wrappers/responsive/default.scss */
-  .col-2, .col-3 {
-    width: 100% !important;
-    margin-bottom: 32px !important;
-  }
-}
-
-/* line 26, ../../../../src/sass/wrappers/responsive/default.scss */
-table {
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt;
-}
-
-/*# sourceMappingURL=default.css.map */

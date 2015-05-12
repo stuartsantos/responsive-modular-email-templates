@@ -34,5 +34,9 @@ table {
   width: 100%;
   text-align: center;
 }
+/* line 16, ../../../src/sass/components/heading.scss */
+.head td {
+  padding: .25em 0;
+}
 
 /*# sourceMappingURL=heading.css.map */

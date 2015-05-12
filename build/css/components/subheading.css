@@ -34,5 +34,9 @@ table {
   text-align: center;
   color: #2DC4A5;
 }
+/* line 16, ../../../src/sass/components/subheading.scss */
+.subheading td {
+  padding: .25em 0;
+}
 
 /*# sourceMappingURL=subheading.css.map */
