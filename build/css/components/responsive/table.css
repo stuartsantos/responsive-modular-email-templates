@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+  /* line 8, ../../../../src/sass/components/responsive/table.scss */
+  .table {
+    width: 100%;
+  }
+  /* line 11, ../../../../src/sass/components/responsive/table.scss */
+  .table thead {
+    display: none;
+  }
+  /* line 14, ../../../../src/sass/components/responsive/table.scss */
+  .table td {
+    display: block;
+    text-align: right;
+    padding: 1em 1.5em !important;
+  }
+  /* line 18, ../../../../src/sass/components/responsive/table.scss */
+  .table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
+    color: #00a4e4;
+  }
+  /* line 26, ../../../../src/sass/components/responsive/table.scss */
+  .table tr {
+    display: block;
+    margin-bottom: 1.5em;
+    border: 1px solid;
+    border-bottom: 0;
+  }
+  /* line 31, ../../../../src/sass/components/responsive/table.scss */
+  .table tr:last-child td {
+    border-bottom: 1px solid !important;
+  }
+  /* line 33, ../../../../src/sass/components/responsive/table.scss */
+  .table tr:last-child td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=table.css.map */
