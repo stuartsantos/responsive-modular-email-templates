@@ -27,18 +27,18 @@ table {
 }
 
 /****************End Reset**************/
-/* line 12, ../../../src/sass/components/ul.scss */
-.ul .spacer {
+/* line 12, ../../../src/sass/components/ol.scss */
+.ol .spacer {
   width: 1em;
 }
-/* line 15, ../../../src/sass/components/ul.scss */
-.ul ul {
+/* line 15, ../../../src/sass/components/ol.scss */
+.ol ol {
   padding: 0;
 }
-/* line 17, ../../../src/sass/components/ul.scss */
-.ul ul li {
+/* line 17, ../../../src/sass/components/ol.scss */
+.ol ol li {
   margin-bottom: .5em;
   margin-left: 1.5em;
 }
 
-/*# sourceMappingURL=ul.css.map */
+/*# sourceMappingURL=ol.css.map */
