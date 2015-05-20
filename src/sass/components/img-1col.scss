@@ -8,14 +8,13 @@
 //reset
 @import '../partials/_reset.scss';
 
-.ul-checked {
-  .spacer {
-    width: 1em;
-  }
-  .bullet {
-    width: 1.75em;
-  }
-  .li {
-    padding-bottom: .5em;
+.img-1col {
+  width: 100%;
+  text-align: center;
+  img {
+    display: block;
+    margin: auto;
+    width: 600px;
+    border-radius: 2px 2px 0 0;
   }
 }

@@ -27,17 +27,17 @@ table {
 }
 
 /****************End Reset**************/
-/* line 12, ../../../src/sass/components/ul-checked.scss */
-.ul-checked .spacer {
-  width: 1em;
+/* line 11, ../../../src/sass/components/img-1col.scss */
+.img-1col {
+  width: 100%;
+  text-align: center;
 }
-/* line 15, ../../../src/sass/components/ul-checked.scss */
-.ul-checked .bullet {
-  width: 1.75em;
-}
-/* line 18, ../../../src/sass/components/ul-checked.scss */
-.ul-checked .li {
-  padding-bottom: .5em;
+/* line 14, ../../../src/sass/components/img-1col.scss */
+.img-1col img {
+  display: block;
+  margin: auto;
+  width: 600px;
+  border-radius: 2px 2px 0 0;
 }
 
-/*# sourceMappingURL=ul-checked.css.map */
+/*# sourceMappingURL=img-1col.css.map */

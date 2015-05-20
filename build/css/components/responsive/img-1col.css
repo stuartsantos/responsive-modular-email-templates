@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  /* line 10, ../../../../src/sass/components/responsive/img-1col.scss */
+  .img-1col img {
+    width: auto !important;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=img-1col.css.map */
