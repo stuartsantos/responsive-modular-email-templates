@@ -26,6 +26,12 @@ table {
   border-spacing: 0;
 }
 
+/* line 26, ../../../src/sass/partials/_reset.scss */
+img {
+  border: 0;
+  outline: none;
+}
+
 /****************End Reset**************/
 /* line 12, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .spacer {
