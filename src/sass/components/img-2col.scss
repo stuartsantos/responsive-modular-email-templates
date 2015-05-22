@@ -8,7 +8,16 @@
 //reset
 @import '../partials/_reset.scss';
 
-.col-3 {
-  width: 200px;
-  margin: auto 0;
+.img-2col {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+  img {
+    display: block;
+    margin: auto;
+    width: 268px;
+  }
+  .spacer {
+    width: 1em;
+  }
 }

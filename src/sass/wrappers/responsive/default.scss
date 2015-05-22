@@ -16,10 +16,16 @@
   }
 }
 
+.columns {
+  @include breakpoint($sub-desktop) {
+    width: 100%;
+  }
+}
+
 .col-2, .col-3 {
   @include breakpoint($sub-desktop) {
     width: 100% !important;
-    margin-bottom: 32px !important;
+    display: block;
   }
 }
 

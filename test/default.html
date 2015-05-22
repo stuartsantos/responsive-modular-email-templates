@@ -5,33 +5,77 @@
   <title>Subject Line Goes Here</title>
 
   <style type="text/css">
+/*
+
+You can use these comments to help you change any of the text or background colors as well as change the font.
+
+########COLORS#######
+
+To use these colors, you can copy the hash value such as #00a4e4 for aig blue and change either the text color or background color of elements. In order to change the color, you can go to the style tag within the relevant table (<table>) or table cell (<td>) and replace an existing "color" or "background" property with the desired color. If neither of those properties exist in the style tag, you can add them.
+
+The final product would look like this for a table or table cell
+<table style="color: #00a4e4; background: #0073ae;">
+or
+<td style="color: #00a4e4; background: #0073ae;">
+
+primary colors
+aig-blue: #00a4e4;
+dark-aig-blue: #0073ae;
+darker-aig-blue: #005984;
+light-aig-blue: #50c8e8;
+lighter-aig-blue: #ade0ee;
+
+secondary colors
+orange: #e36f1e;
+green: #78a22f;
+red: #c41230;
+yellow: #fdb913;
+purple: #af006e;
+mint: #2DC4A5;
+
+
+##########FONTS##########
+
+To change the font of any table cell (<td>), you can either find the "font-family" property within the style tag and replace it or add the "font-family" property to the style tag of a table cell (<td>).
+
+The final product would look like this for futura regular:
+<td style="font-family: 'aig_futuraregular', Helvetica, Arial, sans-serif;">
+
+futura-reg: 'aig_futuraregular', Helvetica, Arial, sans-serif;
+futura-med: 'aig_futura_medregular', Helvetica, Arial, sans-serif;
+futura-bold: 'aig_futurabold', Helvetica, Arial, sans-serif;
+futura-italic: 'aig_futura_regularitalic', Helvetica, Arial, sans-serif;
+futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
+
+*/
 @import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
 @media (max-width: 600px) {
-  /* line 10, ../../../../src/sass/wrappers/responsive/default.scss */
+  /* line 13, ../../../../src/sass/wrappers/responsive/default.scss */
   .wrapper, .section {
     width: 100% !important;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 16, ../../../../src/sass/wrappers/responsive/default.scss */
-  .col {
-    width: 100% !important;
-    display: block !important;
-    margin-bottom: 32px !important;
+  /* line 19, ../../../../src/sass/wrappers/responsive/default.scss */
+  .columns {
+    width: 100%;
+    margin-bottom: 32px;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 24, ../../../../src/sass/wrappers/responsive/default.scss */
+  /* line 25, ../../../../src/sass/wrappers/responsive/default.scss */
   .col-2, .col-3 {
     width: 100% !important;
+    display: block;
   }
 }
 
-table{
-    mso-table-lspace: 0pt !important;
-    mso-table-rspace: 0pt !important;
+/* line 32, ../../../../src/sass/wrappers/responsive/default.scss */
+table {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
 }
 
 /*# sourceMappingURL=default.css.map */
@@ -269,6 +313,7 @@ table{
 </table>
 
 
+
 <style type="text/css">
 @media (max-width: 600px) {
   /* line 10, ../../../../src/sass/components/responsive/img-1col.scss */
@@ -281,10 +326,11 @@ table{
 /*# sourceMappingURL=img-1col.css.map */
 
 </style>
-<table class="img-1col" style="border-collapse: collapse; border-spacing: 0; text-align: center; width: 100%;">
+
+<table class="img-1col" style="border-collapse: collapse; border-spacing: 0; margin: 1em 0; text-align: center; width: 100%;">
   <tr>
     <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <img width="250" src="/build/img/img-1col.jpg" style="border: 0; border-radius: 2px 2px 0 0; display: block; margin: auto; outline: none; width: 250px;">
+      <img width="600" src="/build/img/img-1col.jpg" style="border: 0; display: block; margin: auto; outline: none; width: 600px;">
     </td>
   </tr>
 </table>
@@ -300,21 +346,13 @@ table{
   <tr>
     <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 32px 0; vertical-align: baseline;">
 
-<!--[if mso]>
 
-<style>
-  .col-2 {
-    width: 49.5% !important;
-  }
-</style>
 
-<![endif]-->
 
-<table align="left" class="col-2" style="border-collapse: collapse; border-spacing: 0; margin: auto 0; width: 50%;">
+<table class="columns" style="border-collapse: collapse; border-spacing: 0;">
   <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+    <td class="col-2" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 300px;">
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
-
 
 
 
@@ -393,13 +431,21 @@ table{
 </table>
 
 
-      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
+<table class="img-2col" style="border-collapse: collapse; border-spacing: 0; margin: 1em 0; text-align: center; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <img width="268" src="/build/img/img-1col.jpg" style="border: 0; display: block; margin: auto; outline: none; width: 268px;">
     </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
   </tr>
 </table>
-<table align="right" class="col-2" style="border-collapse: collapse; border-spacing: 0; margin: auto 0; width: 50%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+
+
+
+      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
+    </td>
+    <td class="col-2" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 300px;">
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
 
 
@@ -419,7 +465,6 @@ table{
     <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">SUBHEADING</td>
   </tr>
 </table>
-
 
 
 
@@ -480,10 +525,23 @@ table{
 </table>
 
 
+<table class="img-2col" style="border-collapse: collapse; border-spacing: 0; margin: 1em 0; text-align: center; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <img width="268" src="/build/img/img-1col.jpg" style="border: 0; display: block; margin: auto; outline: none; width: 268px;">
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>
+
+
+
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
     </td>
   </tr>
 </table>
+
 
     </td>
   </tr>
@@ -492,9 +550,11 @@ table{
   <tr>
     <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 32px 0; vertical-align: baseline;">
 
-<table align="left" class="col-3" style="border-collapse: collapse; border-spacing: 0; width: 33%;">
+
+
+<table class="columns" style="border-collapse: collapse; border-spacing: 0;">
   <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+    <td class="col-3" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 200px;">
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
 
 
@@ -504,175 +564,6 @@ table{
   </tr>
 </table>
 
-
-
-
-<table class="subheading" style="border-collapse: collapse; border-spacing: 0; color: #2DC4A5; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: center; width: 100%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">SUBHEADING</td>
-  </tr>
-</table>
-
-
-
-
-<table align="center" class="ul" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <ul style="padding: 0;">
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
-      </ul>
-    </td>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-  </tr>
-</table>
-
-
-
-<table align="center" class="ol" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <ol style="padding: 0;">
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
-      </ol>
-    </td>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-  </tr>
-</table>
-
-
-
-
-<table align="center" class="ul-checked" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <table class="list" style="border-collapse: collapse; border-spacing: 0;">
-        <tr>
-          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
-          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 1</td>
-        </tr>
-        <tr>
-          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
-          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 2</td>
-        </tr>
-        <tr>
-          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
-          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 3</td>
-        </tr>
-      </table>
-    </td>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-  </tr>
-</table>
-
-
-      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
-    </td>
-  </tr>
-</table>
-<table align="left" class="col-3" style="border-collapse: collapse; border-spacing: 0; width: 33%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
-
-
-
-
-<table class="head" style="border-collapse: collapse; border-spacing: 0; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.5em; text-align: center; width: 100%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">Heading</td>
-  </tr>
-</table>
-
-
-<table class="subheading" style="border-collapse: collapse; border-spacing: 0; color: #2DC4A5; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: center; width: 100%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">SUBHEADING</td>
-  </tr>
-</table>
-
-
-
-<table align="center" class="ul" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <ul style="padding: 0;">
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
-      </ul>
-    </td>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-  </tr>
-</table>
-
-
-
-<table align="center" class="ol" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <ol style="padding: 0;">
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
-        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
-      </ol>
-    </td>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-  </tr>
-</table>
-
-
-
-
-<table align="center" class="ul-checked" style="border-collapse: collapse; border-spacing: 0;">
-  <tr>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <table class="list" style="border-collapse: collapse; border-spacing: 0;">
-        <tr>
-          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
-          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 1</td>
-        </tr>
-        <tr>
-          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
-          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 2</td>
-        </tr>
-        <tr>
-          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
-          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 3</td>
-        </tr>
-      </table>
-    </td>
-    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
-  </tr>
-</table>
-
-
-      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
-    </td>
-  </tr>
-</table>
-<table class="col-3" style="border-collapse: collapse; border-spacing: 0; width: 33%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
-
-
-
-<table class="head" style="border-collapse: collapse; border-spacing: 0; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.5em; text-align: center; width: 100%;">
-  <tr>
-    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">Heading</td>
-  </tr>
-</table>
 
 
 
@@ -738,10 +629,161 @@ table{
     </td>
     <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
   </tr>
+</table>      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
+    </td>
+    <td class="col-3" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 200px;">
+      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
+
+
+<table class="head" style="border-collapse: collapse; border-spacing: 0; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.5em; text-align: center; width: 100%;">
+  <tr>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">Heading</td>
+  </tr>
 </table>
 
 
+
+
+<table class="subheading" style="border-collapse: collapse; border-spacing: 0; color: #2DC4A5; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: center; width: 100%;">
+  <tr>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">SUBHEADING</td>
+  </tr>
+</table>
+
+
+
+<table align="center" class="ul" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <ul style="padding: 0;">
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
+      </ul>
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>
+
+
+
+<table align="center" class="ol" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <ol style="padding: 0;">
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
+      </ol>
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>
+
+
+
+
+<table align="center" class="ul-checked" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <table class="list" style="border-collapse: collapse; border-spacing: 0;">
+        <tr>
+          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
+          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 1</td>
+        </tr>
+        <tr>
+          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
+          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 2</td>
+        </tr>
+        <tr>
+          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
+          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 3</td>
+        </tr>
+      </table>
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
+    </td>
+    <td class="col-3" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 200px;">
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
+
+
+<table class="head" style="border-collapse: collapse; border-spacing: 0; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.5em; text-align: center; width: 100%;">
+  <tr>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">Heading</td>
+  </tr>
+</table>
+
+
+
+
+<table class="subheading" style="border-collapse: collapse; border-spacing: 0; color: #2DC4A5; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: center; width: 100%;">
+  <tr>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: .25em 0; vertical-align: baseline;">SUBHEADING</td>
+  </tr>
+</table>
+
+
+
+<table align="center" class="ul" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <ul style="padding: 0;">
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
+      </ul>
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>
+
+
+
+<table align="center" class="ol" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <ol style="padding: 0;">
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 1</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 2</li>
+        <li style="margin-bottom: .5em; margin-left: 1.5em;">List item 3</li>
+      </ol>
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>
+
+
+
+
+<table align="center" class="ul-checked" style="border-collapse: collapse; border-spacing: 0;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+    <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+      <table class="list" style="border-collapse: collapse; border-spacing: 0;">
+        <tr>
+          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
+          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 1</td>
+        </tr>
+        <tr>
+          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
+          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 2</td>
+        </tr>
+        <tr>
+          <td class="bullet" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1.75em;"><img src="/contentlibrary/emea templates/img/checkmark.png" width="18" height="14"></td>
+          <td class="li" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: .5em; vertical-align: baseline;">List item 3</td>
+        </tr>
+      </table>
+    </td>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 1em;"> </td>
+  </tr>
+</table>      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
     </td>
   </tr>
 </table>

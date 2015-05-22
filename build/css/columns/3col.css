@@ -35,7 +35,8 @@ img {
 /****************End Reset**************/
 /* line 11, ../../../src/sass/columns/3col.scss */
 .col-3 {
-  width: 33%;
+  width: 200px;
+  margin: auto 0;
 }
 
 /*# sourceMappingURL=3col.css.map */
