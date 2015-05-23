@@ -1,0 +1,23 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.img-3col {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+  img {
+    display: block;
+    margin: auto;
+    width: 168px;
+  }
+  .spacer {
+    width: 1em;
+  }
+}
