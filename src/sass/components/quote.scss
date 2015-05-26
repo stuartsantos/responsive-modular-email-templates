@@ -1,0 +1,22 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.quote {
+  font-family: $futura-italic;
+  width: 100%;
+  margin: 1em auto;
+  .copy {
+    border-left: 3px solid;
+    padding-left: 1em;
+  }
+  .spacer {
+    width: 1em;
+  }
+}
