@@ -33,3 +33,34 @@ table{
     mso-table-lspace:0pt;
     mso-table-rspace:0pt;
 }
+
+.icon-left {
+  @include breakpoint($sub-desktop) {
+    .icon, .text {
+      display: block !important;
+      width: 100% !important;
+    }
+    .icon {
+      padding: 0 0 32px !important;
+    }
+    .heading {
+      text-align: center;
+    }
+  }
+}
+
+.icon-right {
+  @include breakpoint($sub-desktop) {
+    .icon, .text {
+      float: none !important;
+      width: 100% !important;
+    }
+    .icon td {
+      padding: 0 0 32px !important;
+      text-align: center;
+    }
+    .heading {
+      text-align: center;
+    }
+  }
+}

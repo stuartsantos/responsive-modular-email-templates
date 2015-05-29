@@ -1,0 +1,62 @@
+/***************Reset******************/
+/* line 3, ../../../src/sass/partials/_reset.scss */
+html, body, div, span, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 12, ../../../src/sass/partials/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 17, ../../../src/sass/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 21, ../../../src/sass/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../src/sass/partials/_reset.scss */
+img {
+  border: 0;
+  outline: none;
+}
+
+/****************End Reset**************/
+/* line 11, ../../../src/sass/components/icon-top.scss */
+.icon-top {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 14, ../../../src/sass/components/icon-top.scss */
+.icon-top .icon {
+  text-align: center;
+}
+/* line 16, ../../../src/sass/components/icon-top.scss */
+.icon-top .icon td {
+  padding-bottom: 32px;
+}
+/* line 20, ../../../src/sass/components/icon-top.scss */
+.icon-top .heading {
+  color: #2DC4A5;
+  font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+/* line 27, ../../../src/sass/components/icon-top.scss */
+.icon-top .spacer {
+  padding: 1em;
+}
+
+/*# sourceMappingURL=icon-top.css.map */

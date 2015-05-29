@@ -60,7 +60,6 @@ futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
   /* line 19, ../../../../src/sass/wrappers/responsive/default.scss */
   .columns {
     width: 100%;
-    margin-bottom: 32px;
   }
 }
 
@@ -76,6 +75,39 @@ futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
 table {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;
+}
+
+@media (max-width: 600px) {
+  /* line 39, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-left .icon, .icon-left .text {
+    display: block !important;
+    width: 100% !important;
+  }
+  /* line 43, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-left .icon {
+    padding: 0 0 32px !important;
+  }
+  /* line 46, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-left .heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 54, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-right .icon, .icon-right .text {
+    float: none !important;
+    width: 100% !important;
+  }
+  /* line 58, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-right .icon td {
+    padding: 0 0 32px !important;
+    text-align: center;
+  }
+  /* line 61, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-right .heading {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=default.css.map */
@@ -393,6 +425,91 @@ table {
 
 
 
+
+<table align="center" class="icon-top" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr class="icon" style="text-align: center;">
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            <table class="text" style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; text-align: center; vertical-align: baseline;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+
+<table align="center" class="icon-left" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: top;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr>
+          <td class="icon" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-right: 32px; text-align: center; vertical-align: top;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+          <td class="text" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: top;">
+            <table style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; vertical-align: top;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: top;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+<table align="center" class="icon-right" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table align="right" class="icon" style="border-collapse: collapse; border-spacing: 0; width: 100px;">
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-left: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+      </table>
+      <table align="left" class="text" style="border-collapse: collapse; border-spacing: 0; width: 436px;">
+        <tr>
+          <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; vertical-align: baseline;">
+            Optional Heading
+          </td>
+        </tr>
+        <tr>
+          <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            This is the text content area where you can put product information that adds context to the icon associated with it.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
     </td>
   </tr>
@@ -536,6 +653,37 @@ table {
 </table>
 
 
+
+
+<table align="center" class="icon-top" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr class="icon" style="text-align: center;">
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            <table class="text" style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; text-align: center; vertical-align: baseline;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
     </td>
     <td class="col-2" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 300px;">
@@ -667,6 +815,37 @@ table {
     <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">This is a paragraph.</td>
   </tr>
 </table>
+
+
+
+<table align="center" class="icon-top" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr class="icon" style="text-align: center;">
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            <table class="text" style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; text-align: center; vertical-align: baseline;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
 
 
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
@@ -811,6 +990,37 @@ table {
 <table class="paragraph" style="border-collapse: collapse; border-spacing: 0; font-family: 'aig_futura_regularitalic', Helvetica, Arial, sans-serif; margin: 0 auto; width: 100%;">
   <tr>
     <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">This is a paragraph.</td>
+  </tr>
+</table>
+
+
+
+
+<table align="center" class="icon-top" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr class="icon" style="text-align: center;">
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            <table class="text" style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; text-align: center; vertical-align: baseline;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
   </tr>
 </table>
 
@@ -946,6 +1156,35 @@ table {
 
 
 
+<table align="center" class="icon-top" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr class="icon" style="text-align: center;">
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            <table class="text" style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; text-align: center; vertical-align: baseline;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
       <!-- Remove the text between this comment and the comment closest to it and insert content sections -->
     </td>
     <td class="col-3" style="border: 0; font: inherit; font-size: 100%; margin: auto 0; padding: 0; vertical-align: baseline; width: 200px;">
@@ -1075,6 +1314,35 @@ table {
   </tr>
 </table>
 
+
+
+<table align="center" class="icon-top" style="border-collapse: collapse; border-spacing: 0; margin: 0 auto; width: 100%;">
+  <tr>
+    <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 1em; vertical-align: baseline;">
+      <table style="border-collapse: collapse; border-spacing: 0;">
+        <tr class="icon" style="text-align: center;">
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 32px; vertical-align: baseline;"><img width="100" src="/build/img/sun.png" style="border: 0; outline: none;"></td>
+        </tr>
+        <tr>
+          <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+            <table class="text" style="border-collapse: collapse; border-spacing: 0;">
+              <tr>
+                <td class="heading" style="border: 0; color: #2DC4A5; font: inherit; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; font-size: 1.1em; margin: 0; padding: 0; padding-bottom: 1em; text-align: center; vertical-align: baseline;">
+                  Optional Heading
+                </td>
+              </tr>
+              <tr>
+                <td class="content" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  This is the text content area where you can put product information that adds context to the icon associated with it.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 
      <!-- Remove the text between this comment and the comment closest to it and insert content sections -->

@@ -1,0 +1,32 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.icon-right {
+  width: 100%;
+  margin: 0 auto;
+  .icon {
+    width: 100px;
+    td {
+      padding-left: 32px;
+    }
+  }
+  .text {
+    width: 436px;
+  }
+  .heading {
+    color: $mint;
+    font-family: $futura-med;
+    font-size: 1.1em;
+    padding-bottom: 1em;
+  }
+  .spacer {
+    padding: 1em;
+  }
+}

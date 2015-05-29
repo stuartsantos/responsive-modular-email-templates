@@ -70,4 +70,37 @@ table {
   mso-table-rspace: 0pt;
 }
 
+@media (max-width: 600px) {
+  /* line 39, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-left .icon, .icon-left .text {
+    display: block !important;
+    width: 100% !important;
+  }
+  /* line 43, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-left .icon {
+    padding: 0 0 32px !important;
+  }
+  /* line 46, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-left .heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 54, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-right .icon, .icon-right .text {
+    float: none !important;
+    width: 100% !important;
+  }
+  /* line 58, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-right .icon td {
+    padding: 0 0 32px !important;
+    text-align: center;
+  }
+  /* line 62, ../../../../src/sass/wrappers/responsive/default.scss */
+  .icon-right .heading {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=default.css.map */
