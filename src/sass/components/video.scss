@@ -1,0 +1,19 @@
+//utils
+@import 'breakpoint';
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.video-wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+  video {
+    display: block;
+    margin: auto;
+  }
+}

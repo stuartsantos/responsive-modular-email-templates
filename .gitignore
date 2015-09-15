@@ -3,3 +3,4 @@ node_modules
 *.css.map
 src/font
 src/img
+src/mov

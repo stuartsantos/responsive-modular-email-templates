@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  /* line 9, ../../../../src/sass/components/responsive/video.scss */
+  .video-wrapper video {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=video.css.map */
