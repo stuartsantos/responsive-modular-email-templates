@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="border: 0; font: inherit; font-size: 100%; height: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 100%;">
+<html lang="en" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; width: 100%; height: 100%;">
 <head>
   <meta charset="UTF-8">
   <title>Subject Line Goes Here</title>
@@ -38,17 +38,16 @@ mint: #2DC4A5;
 
 To change the font of any table cell (<td>), you can either find the "font-family" property within the style tag and replace it or add the "font-family" property to the style tag of a table cell (<td>).
 
-The final product would look like this for futura regular:
-<td style="font-family: 'aig_futuraregular', Helvetica, Arial, sans-serif;">
+The final product would look like this for Source Sans Pro regular:
+<td style="font-family: 'Source Sans Pro', sans-serif;">
 
-futura-reg: 'aig_futuraregular', Helvetica, Arial, sans-serif;
-futura-med: 'aig_futura_medregular', Helvetica, Arial, sans-serif;
-futura-bold: 'aig_futurabold', Helvetica, Arial, sans-serif;
-futura-italic: 'aig_futura_regularitalic', Helvetica, Arial, sans-serif;
-futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
+source-reg: 'Source Sans Pro', sans-serif; font-weight: 400;
+source-bold: 'Source Sans Pro', sans-serif; font-weight: 700;
+source-italic: 'Source Sans Pro', sans-serif; font-weight: 400; font-style: italic;
+source-italic-bold: 'Source Sans Pro', sans-serif; font-weight: 700; font-style: italic;
 
 */
-@import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,400italic);
 @media (max-width: 600px) {
   /* line 13, ../../../../src/sass/wrappers/responsive/default.scss */
   .wrapper, .section {
@@ -100,10 +99,11 @@ table {
     width: 100% !important;
   }
   /* line 58, ../../../../src/sass/wrappers/responsive/default.scss */
-  .icon-right .icon {
+  .icon-right .icon td {
     padding: 0 0 32px !important;
+    text-align: center;
   }
-  /* line 61, ../../../../src/sass/wrappers/responsive/default.scss */
+  /* line 62, ../../../../src/sass/wrappers/responsive/default.scss */
   .icon-right .heading {
     text-align: center;
   }
@@ -120,39 +120,39 @@ table {
   </style>
   <![endif]-->
 </head>
-<body style="border: 0; font: inherit; font-size: 100%; height: 100%; line-height: 1; margin: 0; padding: 0; vertical-align: baseline; width: 100%;">
-  <table class="body" style="-moz-font-feature-settings: 'liga' on; -moz-osx-font-smoothing: grayscale; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; background: #ccc; border-collapse: collapse; border-spacing: 0; font-family: aig_futuraregular, sans-serif; height: 100%; text-rendering: optimizeLegibility; width: 100%;">
+<body style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; width: 100%; height: 100%; line-height: 1;">
+  <table class="body" style="border-collapse: collapse; font-family: 'Source Sans Pro', sans-serif; border-spacing: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; background: #fff; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%; height: 100%; -moz-font-feature-settings: 'liga' on;">
     <tr>
-      <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-        <table align="center" class="wrapper" style="border-collapse: collapse; border-spacing: 0; margin: auto; width: 620px;">
+      <td style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif;">
+        <table align="center" class="wrapper" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', sans-serif; width: 620px; margin: auto;">
           <tr>
-            <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 10px;"> </td>
-            <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
-              <table class="preheader" style="border-collapse: collapse; border-spacing: 0; color: #767676; font-size: 10px; width: 100%;">
+            <td class="spacer" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif; width: 10px;"> </td>
+            <td style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif;">
+              <table class="preheader" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', sans-serif; width: 100%; color: #767676; font-size: 10px;">
                 <tr>
-                  <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 16px; vertical-align: baseline;">preheader text goes here <br>
+                  <td style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif; padding: 16px;">preheader text goes here <br>
                   <a href="#" style="color: #767676;">link in preheader</a>
                   </td>
                 </tr>
               </table>
-              <table align="center" class="main" style="background: #fff; border-collapse: collapse; border-radius: 2px; border-spacing: 0; box-shadow: 0 1px 4px #666; color: #767676; width: 100%;">
+              <table align="center" class="main" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', sans-serif; width: 100%; color: #767676; background: #fff; border-radius: 2px; box-shadow: 0 1px 4px #666;">
                 <tr>
-                  <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">
+                  <td style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif;">
                   <!-- Remove the text below this comment and insert header/content sections -->
                   body content goes here
                   <!-- Remove the text above this comment and insert header/content sections -->
                   </td>
                 </tr>
               </table>
-              <table class="footer" style="border-collapse: collapse; border-spacing: 0; color: #767676; font-size: 10px; width: 100%;">
+              <table class="footer" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', sans-serif; width: 100%; color: #767676; font-size: 10px;">
                 <tr>
-                  <td style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 16px; vertical-align: baseline;">footer text goes here <br>
+                  <td style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif; padding: 16px;">footer text goes here <br>
                   <a href="#" style="color: #767676;">link in footer</a>
                   </td>
                 </tr>
               </table>
             </td>
-            <td class="spacer" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; width: 10px;"></td>
+            <td class="spacer" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: 'Source Sans Pro', sans-serif; width: 10px;"></td>
           </tr>
         </table>
       </td>

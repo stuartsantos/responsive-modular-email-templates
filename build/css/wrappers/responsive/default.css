@@ -31,17 +31,16 @@ mint: #2DC4A5;
 
 To change the font of any table cell (<td>), you can either find the "font-family" property within the style tag and replace it or add the "font-family" property to the style tag of a table cell (<td>).
 
-The final product would look like this for futura regular:
-<td style="font-family: 'aig_futuraregular', Helvetica, Arial, sans-serif;">
+The final product would look like this for Source Sans Pro regular:
+<td style="font-family: 'Source Sans Pro', sans-serif;">
 
-futura-reg: 'aig_futuraregular', Helvetica, Arial, sans-serif;
-futura-med: 'aig_futura_medregular', Helvetica, Arial, sans-serif;
-futura-bold: 'aig_futurabold', Helvetica, Arial, sans-serif;
-futura-italic: 'aig_futura_regularitalic', Helvetica, Arial, sans-serif;
-futura-italic-bold: 'aig_futura_bolditalic', Helvetica, Arial, sans-serif;
+source-reg: 'Source Sans Pro', sans-serif; font-weight: 400;
+source-bold: 'Source Sans Pro', sans-serif; font-weight: 700;
+source-italic: 'Source Sans Pro', sans-serif; font-weight: 400; font-style: italic;
+source-italic-bold: 'Source Sans Pro', sans-serif; font-weight: 700; font-style: italic;
 
 */
-@import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,400italic);
 @media (max-width: 600px) {
   /* line 13, ../../../../src/sass/wrappers/responsive/default.scss */
   .wrapper, .section {

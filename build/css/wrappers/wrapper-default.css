@@ -35,56 +35,61 @@ img {
 /****************End Reset**************/
 /* line 11, ../../../src/sass/wrappers/wrapper-default.scss */
 .body {
-  background: #ccc;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: aig_futuraregular, sans-serif;
   width: 100%;
   height: 100%;
 }
 
-/* line 24, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 23, ../../../src/sass/wrappers/wrapper-default.scss */
+table, td {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 27, ../../../src/sass/wrappers/wrapper-default.scss */
 .wrapper {
   width: 620px;
   margin: auto;
 }
-/* line 27, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 30, ../../../src/sass/wrappers/wrapper-default.scss */
 .wrapper .spacer {
   width: 10px;
 }
 
-/* line 32, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 35, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader, .main, .footer {
   width: 100%;
   color: #767676;
 }
 
-/* line 37, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 40, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader, .footer {
   font-size: 10px;
 }
-/* line 39, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 42, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader a, .footer a {
   color: #767676;
 }
-/* line 41, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 44, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader a:hover, .footer a:hover {
   text-decoration: none;
 }
-/* line 45, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 48, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader td, .footer td {
   padding: 16px;
 }
 
-/* line 50, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 53, ../../../src/sass/wrappers/wrapper-default.scss */
 .main {
   background: #fff;
   border-radius: 2px;
   box-shadow: 0 1px 4px #666;
+  /*   border: 1px solid #ddd; */
 }
 
 /*# sourceMappingURL=wrapper-default.css.map */
