@@ -29,5 +29,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-newer": "^1.3.0",
     "grunt-postcss": "^0.7.2"
+  },
+  "dependencies": {
+    "grunt-email-builder": "^4.0.0"
   }
 }
