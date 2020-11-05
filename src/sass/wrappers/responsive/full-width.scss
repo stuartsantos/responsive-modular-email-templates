@@ -7,8 +7,6 @@
 //colors and fonts
 @import '../../partials/_colors-fonts.scss';
 
-@import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
-
 .wrapper, .preheader, .footer, .section {
   @include breakpoint(sub-desktop) {
     width: 100% !important;
