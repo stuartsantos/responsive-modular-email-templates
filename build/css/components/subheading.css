@@ -35,7 +35,7 @@ img {
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/subheading.scss */
 .subheading {
-  font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   width: 100%;
   text-align: center;
   color: #2DC4A5;

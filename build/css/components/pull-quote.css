@@ -35,14 +35,15 @@ img {
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/pull-quote.scss */
 .pull-quote {
-  font-family: "aig_futura_regularitalic", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
   width: 100%;
   margin: 1em auto;
   font-size: 1.25em;
   text-align: center;
   color: #2DC4A5;
 }
-/* line 17, ../../../src/sass/components/pull-quote.scss */
+/* line 18, ../../../src/sass/components/pull-quote.scss */
 .pull-quote .spacer {
   width: 1em;
 }

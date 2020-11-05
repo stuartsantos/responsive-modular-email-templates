@@ -35,16 +35,17 @@ img {
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/quote.scss */
 .quote {
-  font-family: "aig_futura_regularitalic", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
   width: 100%;
   margin: 1em auto;
 }
-/* line 14, ../../../src/sass/components/quote.scss */
+/* line 15, ../../../src/sass/components/quote.scss */
 .quote .copy {
   border-left: 3px solid;
   padding-left: 1em;
 }
-/* line 18, ../../../src/sass/components/quote.scss */
+/* line 19, ../../../src/sass/components/quote.scss */
 .quote .spacer {
   width: 1em;
 }

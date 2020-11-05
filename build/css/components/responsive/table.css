@@ -18,8 +18,8 @@
     content: attr(data-label);
     float: left;
     text-transform: uppercase;
-    font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
-    color: #00a4e4;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #001871;
   }
   /* line 25, ../../../../src/sass/components/responsive/table.scss */
   .table tr {

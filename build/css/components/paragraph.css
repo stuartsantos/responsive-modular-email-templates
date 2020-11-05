@@ -35,7 +35,7 @@ img {
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/paragraph.scss */
 .paragraph {
-  font-family: "aig_futura_regularitalic", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   width: 100%;
   margin: 0 auto;
 }

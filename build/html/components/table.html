@@ -1,84 +1,41 @@
+<link rel="stylesheet" type="text/css" href="../../css/components/table.css">
+<link rel="stylesheet" type="text/css" href="../../css/components/responsive/table.css" data-embed>
 
-<style type="text/css">
-@media (max-width: 600px) {
-  /* line 7, ../../../../src/sass/components/responsive/table.scss */
-  .table {
-    width: 100%;
-  }
-  /* line 10, ../../../../src/sass/components/responsive/table.scss */
-  .table thead {
-    display: none;
-  }
-  /* line 13, ../../../../src/sass/components/responsive/table.scss */
-  .table td {
-    display: block;
-    text-align: right;
-    padding: 1em 1.5em !important;
-  }
-  /* line 17, ../../../../src/sass/components/responsive/table.scss */
-  .table td:before {
-    content: attr(data-label);
-    float: left;
-    text-transform: uppercase;
-    font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
-    color: #00a4e4;
-  }
-  /* line 25, ../../../../src/sass/components/responsive/table.scss */
-  .table tr {
-    display: block;
-    margin-bottom: 1.5em;
-    border: 1px solid;
-    border-bottom: 0;
-  }
-  /* line 30, ../../../../src/sass/components/responsive/table.scss */
-  .table tr:last-child td {
-    border-bottom: 1px solid !important;
-  }
-  /* line 32, ../../../../src/sass/components/responsive/table.scss */
-  .table tr:last-child td:last-child {
-    border-bottom: 0;
-  }
-}
-
-/*# sourceMappingURL=table.css.map */
-
-</style>
-
-<table class="wrapper" style="border-collapse: collapse; border-spacing: 0; margin: 1em 0; width: 100%;">
+<table class="wrapper">
   <tr>
-    <td class="spacer" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; width: 1em;"> </td>
-    <td style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;">
-      <table align="center" class="table" style="border-collapse: collapse; border-spacing: 0; font-family: 'aig_futuraregular', Helvetica, Arial, sans-serif;">
+    <td class="spacer"> </td>
+    <td>
+      <table align="center" class="table">
         <thead>
           <tr>
-            <th style="font-weight: normal; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: left; font-size: 1.1em; color: #00a4e4; padding: 0 1.5em; padding-left: 0;">Product</th>
-            <th style="font-weight: normal; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: left; font-size: 1.1em; color: #00a4e4; padding: 0 1.5em;">Price</th>
-            <th style="font-weight: normal; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: left; font-size: 1.1em; color: #00a4e4; padding: 0 1.5em;">Benefit</th>
-            <th style="font-weight: normal; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif; text-align: left; font-size: 1.1em; color: #00a4e4; padding: 0 1.5em;">Cover</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Benefit</th>
+            <th>Cover</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td data-label="Product" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid; padding-left: 0;">Auto</td>
-            <td data-label="Price" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid;">$125/month</td>
-            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid;">XLNT Driver</td>
-            <td data-label="Cover" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid;">Individual</td>
+            <td data-label="Product">Auto</td>
+            <td data-label="Price">$125/month</td>
+            <td data-label="Benefit">XLNT Driver</td>
+            <td data-label="Cover">Individual</td>
           </tr>
           <tr>
-            <td data-label="Product" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid; padding-left: 0;">Travel</td>
-            <td data-label="Price" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid;">$10</td>
-            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid;">Multi-Trip</td>
-            <td data-label="Cover" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: 1px solid;">Family</td>
+            <td data-label="Product">Travel</td>
+            <td data-label="Price">$10</td>
+            <td data-label="Benefit">Multi-Trip</td>
+            <td data-label="Cover">Family</td>
           </tr>
           <tr>
-            <td data-label="Product" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; padding-left: 0; border-bottom: none;">Home</td>
-            <td data-label="Price" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: none;">$200/month</td>
-            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: none;">Possessions</td>
-            <td data-label="Cover" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 1em 1.5em; border-bottom: none;">Rental</td>
+            <td data-label="Product">Home</td>
+            <td data-label="Price">$200/month</td>
+            <td data-label="Benefit">Possessions</td>
+            <td data-label="Cover">Rental</td>
           </tr>
         </tbody>
       </table>
     </td>
-    <td class="spacer" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; width: 1em;"> </td>
+    <td class="spacer"> </td>
   </tr>
 </table>

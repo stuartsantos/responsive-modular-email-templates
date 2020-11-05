@@ -45,15 +45,15 @@ img {
 
 /* line 18, ../../../src/sass/components/table.scss */
 .table {
-  font-family: "aig_futuraregular", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 /* line 20, ../../../src/sass/components/table.scss */
 .table th {
   font-weight: normal;
-  font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: left;
   font-size: 1.1em;
-  color: #00a4e4;
+  color: #001871;
   padding: 0 1.5em;
 }
 /* line 27, ../../../src/sass/components/table.scss */

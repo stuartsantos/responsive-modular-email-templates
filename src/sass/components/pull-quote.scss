@@ -8,7 +8,8 @@
 @import '../partials/_reset.scss';
 
 .pull-quote {
-  font-family: $futura-italic;
+  font-family: $source-reg;
+  font-style: italic;
   width: 100%;
   margin: 1em auto;
   font-size: 1.25em;
