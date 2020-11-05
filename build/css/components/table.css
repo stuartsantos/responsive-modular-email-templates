@@ -4,7 +4,7 @@ html, body, div, span, td {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 16px;
   font: inherit;
   vertical-align: baseline;
 }
@@ -52,7 +52,7 @@ img {
   font-weight: normal;
   font-family: "Source Sans Pro", sans-serif;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 18px;
   color: #001871;
   padding: 0 1.5em;
 }

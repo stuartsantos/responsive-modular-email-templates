@@ -4,7 +4,7 @@ html, body, div, span, td {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 16px;
   font: inherit;
   vertical-align: baseline;
 }
@@ -41,7 +41,7 @@ table {
 /* line 14, ../../../src/sass/components/highlight.scss */
 .highlight {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.25em;
+  font-size: 20px;
   color: #fff;
   background: #C7DBF4;
   padding: 1em;
