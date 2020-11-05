@@ -33,13 +33,13 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/button.scss */
+/* line 10, ../../../src/sass/components/button.scss */
 .button {
   text-align: center;
   margin: 16px 0;
   width: 100%;
 }
-/* line 15, ../../../src/sass/components/button.scss */
+/* line 14, ../../../src/sass/components/button.scss */
 .button a {
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);

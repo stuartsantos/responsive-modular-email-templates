@@ -33,20 +33,20 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/icon-top.scss */
+/* line 10, ../../../src/sass/components/icon-top.scss */
 .icon-top {
   width: 100%;
   margin: 0 auto;
 }
-/* line 14, ../../../src/sass/components/icon-top.scss */
+/* line 13, ../../../src/sass/components/icon-top.scss */
 .icon-top .icon {
   text-align: center;
 }
-/* line 16, ../../../src/sass/components/icon-top.scss */
+/* line 15, ../../../src/sass/components/icon-top.scss */
 .icon-top .icon td {
   padding-bottom: 32px;
 }
-/* line 20, ../../../src/sass/components/icon-top.scss */
+/* line 19, ../../../src/sass/components/icon-top.scss */
 .icon-top .heading {
   color: #2DC4A5;
   font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
@@ -54,11 +54,11 @@ img {
   text-align: center;
   padding-bottom: 1em;
 }
-/* line 27, ../../../src/sass/components/icon-top.scss */
+/* line 26, ../../../src/sass/components/icon-top.scss */
 .icon-top .spacer {
   padding: 1em;
 }
-/* line 30, ../../../src/sass/components/icon-top.scss */
+/* line 29, ../../../src/sass/components/icon-top.scss */
 .icon-top .icon-container {
   width: 100%;
 }

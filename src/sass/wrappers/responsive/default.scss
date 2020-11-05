@@ -1,5 +1,4 @@
 //utils
-@import 'breakpoint';
 @import "compass/utilities/general/clearfix";
 
 //variables
@@ -11,19 +10,19 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,400italic);
 
 .wrapper, .section {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100% !important;
   }
 }
 
 .columns {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100%;
   }
 }
 
 .col-2, .col-3 {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100% !important;
     display: block;
   }
@@ -35,7 +34,7 @@ table{
 }
 
 .icon-left {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     .icon, .text {
       display: block !important;
       width: 100% !important;
@@ -50,7 +49,7 @@ table{
 }
 
 .icon-right {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     .icon, .text {
       float: none !important;
       width: 100% !important;

@@ -1,15 +1,71 @@
 
+<style type="text/css">
+/***************Reset******************/
+/* line 3, ../../../../src/sass/partials/_reset.scss */
+html, body, div, span, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-<table class="header" style="-webkit-animation: header 5s infinite alternate linear; border-collapse: collapse; border-radius: 2px 2px 0 0; border-spacing: 0; padding-bottom: 20px; text-align: center; width: 100%; background: linear-gradient(to right, #2dc4a5 20%, #005984 80%); background-size: 4000px;">
+/* line 12, ../../../../src/sass/partials/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 17, ../../../../src/sass/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 21, ../../../../src/sass/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../src/sass/partials/_reset.scss */
+img {
+  border: 0;
+  outline: none;
+}
+
+/****************End Reset**************/
+@-webkit-keyframes header {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2000px 0;
+  }
+}
+/* line 19, ../../../../src/sass/headers/responsive/aig-motion.scss */
+.header {
+  background: #2dc4a5;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #2dc4a5), color-stop(80%, #005984)) !important;
+  background: -webkit-linear-gradient(left, #2dc4a5 20%, #005984 80%) !important;
+  background: linear-gradient(to right, #2dc4a5 20%, #005984 80%) !important;
+  background-size: 4000px !important;
+  -webkit-animation: header 5s infinite alternate linear;
+}
+
+/*# sourceMappingURL=aig-motion.css.map */
+
+</style>
+<table class="header" style="border-collapse: collapse; border-spacing: 0; width: 100%; text-align: center; padding-bottom: 20px; background: #2DC4A5; border-radius: 2px 2px 0 0;">
   <tr>
-    <td class="logo" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 20px 0; vertical-align: baseline;">
-      <img width="111" src="/build/img/aig-logo-white.png" style="display: block; margin: auto; width: 111px;">
+    <td class="logo" style="margin: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding: 20px 0;">
+      <img width="111" src="/build/img/aig-logo-white.png" style="border: 0; outline: none; display: block; margin: auto; width: 111px;">
     </td>
   </tr>
   <tr>
-    <td class="heading" style="border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; padding-bottom: 20px; vertical-align: baseline;">
-    <h1 style="color: #fff; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif, sans-serif; font-weight: normal; margin: 0 0 5px;">Optional header text</h1>
-    <span class="flavor" style="border: 0; color: #fff; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;">Optional flavor text</span>
+    <td class="heading" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; padding-bottom: 20px;">
+    <h1 style="color: #fff; font-weight: normal; font-family: 'aig_futura_medregular', Helvetica, Arial, sans-serif, sans-serif; margin: 0 0 5px;">Optional header text</h1>
+    <span class="flavor" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; color: #fff;">Optional flavor text</span>
     </td>
   </tr>
 </table>

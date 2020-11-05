@@ -33,7 +33,7 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 10, ../../../src/sass/wrappers/wrapper-default.scss */
 .body {
   background: #fff;
   -webkit-font-smoothing: antialiased;
@@ -46,45 +46,45 @@ img {
   height: 100%;
 }
 
-/* line 23, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 22, ../../../src/sass/wrappers/wrapper-default.scss */
 table, td {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* line 27, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 26, ../../../src/sass/wrappers/wrapper-default.scss */
 .wrapper {
   width: 620px;
   margin: auto;
 }
-/* line 30, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 29, ../../../src/sass/wrappers/wrapper-default.scss */
 .wrapper .spacer {
   width: 10px;
 }
 
-/* line 35, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 34, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader, .main, .footer {
   width: 100%;
   color: #767676;
 }
 
-/* line 40, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 39, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader, .footer {
   font-size: 10px;
 }
-/* line 42, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 41, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader a, .footer a {
   color: #767676;
 }
-/* line 44, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 43, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader a:hover, .footer a:hover {
   text-decoration: none;
 }
-/* line 48, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 47, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader td, .footer td {
   padding: 16px;
 }
 
-/* line 53, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 52, ../../../src/sass/wrappers/wrapper-default.scss */
 .main {
   background: #fff;
   border-radius: 2px;

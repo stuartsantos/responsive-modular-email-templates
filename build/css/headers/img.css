@@ -33,12 +33,12 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/headers/img.scss */
+/* line 10, ../../../src/sass/headers/img.scss */
 .header {
   width: 100%;
   text-align: center;
 }
-/* line 14, ../../../src/sass/headers/img.scss */
+/* line 13, ../../../src/sass/headers/img.scss */
 .header img {
   display: block;
   margin: auto;

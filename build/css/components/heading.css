@@ -33,14 +33,14 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/heading.scss */
+/* line 10, ../../../src/sass/components/heading.scss */
 .head {
   font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   width: 100%;
   text-align: center;
 }
-/* line 16, ../../../src/sass/components/heading.scss */
+/* line 15, ../../../src/sass/components/heading.scss */
 .head td {
   padding: .25em 0;
 }

@@ -33,21 +33,21 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/table.scss */
+/* line 10, ../../../src/sass/components/table.scss */
 .wrapper {
   margin: 1em 0;
   width: 100%;
 }
-/* line 14, ../../../src/sass/components/table.scss */
+/* line 13, ../../../src/sass/components/table.scss */
 .wrapper .spacer {
   width: 1em;
 }
 
-/* line 19, ../../../src/sass/components/table.scss */
+/* line 18, ../../../src/sass/components/table.scss */
 .table {
   font-family: "aig_futuraregular", Helvetica, Arial, sans-serif;
 }
-/* line 21, ../../../src/sass/components/table.scss */
+/* line 20, ../../../src/sass/components/table.scss */
 .table th {
   font-weight: normal;
   font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
@@ -56,20 +56,20 @@ img {
   color: #00a4e4;
   padding: 0 1.5em;
 }
-/* line 28, ../../../src/sass/components/table.scss */
+/* line 27, ../../../src/sass/components/table.scss */
 .table th:first-child {
   padding-left: 0;
 }
-/* line 32, ../../../src/sass/components/table.scss */
+/* line 31, ../../../src/sass/components/table.scss */
 .table td {
   padding: 1em 1.5em;
   border-bottom: 1px solid;
 }
-/* line 35, ../../../src/sass/components/table.scss */
+/* line 34, ../../../src/sass/components/table.scss */
 .table td:first-child {
   padding-left: 0;
 }
-/* line 39, ../../../src/sass/components/table.scss */
+/* line 38, ../../../src/sass/components/table.scss */
 .table tr:last-child td {
   border-bottom: none;
 }

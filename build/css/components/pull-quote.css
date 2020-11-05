@@ -33,7 +33,7 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/pull-quote.scss */
+/* line 10, ../../../src/sass/components/pull-quote.scss */
 .pull-quote {
   font-family: "aig_futura_regularitalic", Helvetica, Arial, sans-serif;
   width: 100%;
@@ -42,7 +42,7 @@ img {
   text-align: center;
   color: #2DC4A5;
 }
-/* line 18, ../../../src/sass/components/pull-quote.scss */
+/* line 17, ../../../src/sass/components/pull-quote.scss */
 .pull-quote .spacer {
   width: 1em;
 }

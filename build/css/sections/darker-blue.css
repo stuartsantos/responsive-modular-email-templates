@@ -33,13 +33,13 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/sections/darker-blue.scss */
+/* line 10, ../../../src/sass/sections/darker-blue.scss */
 .section {
   background: #005984;
   color: #fff;
   width: 100%;
 }
-/* line 15, ../../../src/sass/sections/darker-blue.scss */
+/* line 14, ../../../src/sass/sections/darker-blue.scss */
 .section td {
   padding: 32px 0;
 }

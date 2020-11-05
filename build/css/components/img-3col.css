@@ -33,19 +33,19 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/img-3col.scss */
+/* line 10, ../../../src/sass/components/img-3col.scss */
 .img-3col {
   width: 100%;
   text-align: center;
   margin: 1em 0;
 }
-/* line 15, ../../../src/sass/components/img-3col.scss */
+/* line 14, ../../../src/sass/components/img-3col.scss */
 .img-3col img {
   display: block;
   margin: auto;
   width: 168px;
 }
-/* line 20, ../../../src/sass/components/img-3col.scss */
+/* line 19, ../../../src/sass/components/img-3col.scss */
 .img-3col .spacer {
   width: 1em;
 }

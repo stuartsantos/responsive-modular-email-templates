@@ -33,15 +33,15 @@ img {
 }
 
 /****************End Reset**************/
-/* line 12, ../../../src/sass/components/ul-checked.scss */
+/* line 11, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .spacer {
   width: 1em;
 }
-/* line 15, ../../../src/sass/components/ul-checked.scss */
+/* line 14, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .bullet {
   width: 1.75em;
 }
-/* line 18, ../../../src/sass/components/ul-checked.scss */
+/* line 17, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .li {
   padding-bottom: .5em;
 }

@@ -1,12 +1,11 @@
 //utils
-@import 'breakpoint';
 @import "compass/utilities/general/clearfix";
 
 //variables
 @import '../../partials/_variables.scss';
 
 .container {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100% !important;
   }
 }

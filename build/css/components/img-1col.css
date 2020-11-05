@@ -33,13 +33,13 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/img-1col.scss */
+/* line 10, ../../../src/sass/components/img-1col.scss */
 .img-1col {
   width: 100%;
   text-align: center;
   margin: 1em 0;
 }
-/* line 15, ../../../src/sass/components/img-1col.scss */
+/* line 14, ../../../src/sass/components/img-1col.scss */
 .img-1col img {
   display: block;
   margin: auto;

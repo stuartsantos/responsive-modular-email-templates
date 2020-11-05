@@ -1,5 +1,4 @@
 //utils
-@import 'breakpoint';
 @import "compass/utilities/general/clearfix";
 
 //variables
@@ -7,7 +6,7 @@
 
 .video-wrapper {
   video {
-    @include breakpoint($sub-desktop) {
+    @include breakpoint(sub-desktop) {
       width: 100% !important;
     }
   }

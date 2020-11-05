@@ -33,19 +33,19 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../../src/sass/components/mso/button.scss */
+/* line 10, ../../../../src/sass/components/mso/button.scss */
 .mso-button {
   text-align: center;
   background: #fff;
   margin: 16px auto;
 }
-/* line 15, ../../../../src/sass/components/mso/button.scss */
+/* line 14, ../../../../src/sass/components/mso/button.scss */
 .mso-button a {
   color: #2DC4A5;
   font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
-/* line 20, ../../../../src/sass/components/mso/button.scss */
+/* line 19, ../../../../src/sass/components/mso/button.scss */
 .mso-button td {
   padding: 8px 16px;
   border: 1px solid #ddd;

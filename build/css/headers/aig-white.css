@@ -33,7 +33,7 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/headers/aig-white.scss */
+/* line 10, ../../../src/sass/headers/aig-white.scss */
 .header {
   width: 100%;
   text-align: center;
@@ -41,26 +41,26 @@ img {
   background: #005984;
   border-radius: 2px 2px 0 0;
 }
-/* line 17, ../../../src/sass/headers/aig-white.scss */
+/* line 16, ../../../src/sass/headers/aig-white.scss */
 .header h1 {
   color: #fff;
   font-weight: normal;
   font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif, sans-serif;
   margin: 0 0 5px;
 }
-/* line 23, ../../../src/sass/headers/aig-white.scss */
+/* line 22, ../../../src/sass/headers/aig-white.scss */
 .header .heading {
   padding-bottom: 20px;
 }
-/* line 26, ../../../src/sass/headers/aig-white.scss */
+/* line 25, ../../../src/sass/headers/aig-white.scss */
 .header .flavor {
   color: #fff;
 }
-/* line 29, ../../../src/sass/headers/aig-white.scss */
+/* line 28, ../../../src/sass/headers/aig-white.scss */
 .header .logo {
   padding: 20px 0;
 }
-/* line 32, ../../../src/sass/headers/aig-white.scss */
+/* line 31, ../../../src/sass/headers/aig-white.scss */
 .header img {
   display: block;
   margin: auto;

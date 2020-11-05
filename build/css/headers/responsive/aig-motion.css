@@ -41,7 +41,7 @@ img {
     background-position: -2000px 0;
   }
 }
-/* line 20, ../../../../src/sass/headers/responsive/aig-motion.scss */
+/* line 19, ../../../../src/sass/headers/responsive/aig-motion.scss */
 .header {
   background: #2dc4a5;
   background: -webkit-gradient(linear, left top, right top, color-stop(20%, #2dc4a5), color-stop(80%, #005984)) !important;

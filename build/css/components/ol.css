@@ -33,15 +33,15 @@ img {
 }
 
 /****************End Reset**************/
-/* line 12, ../../../src/sass/components/ol.scss */
+/* line 11, ../../../src/sass/components/ol.scss */
 .ol .spacer {
   width: 1em;
 }
-/* line 15, ../../../src/sass/components/ol.scss */
+/* line 14, ../../../src/sass/components/ol.scss */
 .ol ol {
   padding: 0;
 }
-/* line 17, ../../../src/sass/components/ol.scss */
+/* line 16, ../../../src/sass/components/ol.scss */
 .ol ol li {
   margin-bottom: .5em;
   margin-left: 1.5em;

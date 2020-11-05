@@ -33,31 +33,31 @@ img {
 }
 
 /****************End Reset**************/
-/* line 11, ../../../src/sass/components/icon-right.scss */
+/* line 10, ../../../src/sass/components/icon-right.scss */
 .icon-right {
   width: 100%;
   margin: 0 auto;
 }
-/* line 14, ../../../src/sass/components/icon-right.scss */
+/* line 13, ../../../src/sass/components/icon-right.scss */
 .icon-right .icon {
   width: 100px;
 }
-/* line 16, ../../../src/sass/components/icon-right.scss */
+/* line 15, ../../../src/sass/components/icon-right.scss */
 .icon-right .icon td {
   padding-left: 32px;
 }
-/* line 20, ../../../src/sass/components/icon-right.scss */
+/* line 19, ../../../src/sass/components/icon-right.scss */
 .icon-right .text {
   width: 436px;
 }
-/* line 23, ../../../src/sass/components/icon-right.scss */
+/* line 22, ../../../src/sass/components/icon-right.scss */
 .icon-right .heading {
   color: #2DC4A5;
   font-family: "aig_futura_medregular", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   padding-bottom: 1em;
 }
-/* line 29, ../../../src/sass/components/icon-right.scss */
+/* line 28, ../../../src/sass/components/icon-right.scss */
 .icon-right .spacer {
   padding: 1em;
 }

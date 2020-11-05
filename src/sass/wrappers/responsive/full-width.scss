@@ -1,5 +1,4 @@
 //utils
-@import 'breakpoint';
 @import "compass/utilities/general/clearfix";
 
 //variables
@@ -11,20 +10,20 @@
 @import url(https://www.aig.ae/Chartis/internet/AE/en/fonts-pt_tcm3739-524405.css);
 
 .wrapper, .preheader, .footer, .section {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100% !important;
   }
 }
 
 .columns {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100%;
     margin-bottom: 32px;
   }
 }
 
 .col-2, .col-3 {
-  @include breakpoint($sub-desktop) {
+  @include breakpoint(sub-desktop) {
     width: 100% !important;
     display: block;
   }
