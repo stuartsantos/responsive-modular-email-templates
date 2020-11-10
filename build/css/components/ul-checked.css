@@ -35,15 +35,15 @@ img {
 /****************End Reset**************/
 /* line 11, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .spacer {
-  width: 1em;
+  width: 16px;
 }
 /* line 14, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .bullet {
-  width: 1.75em;
+  width: 28px;
 }
 /* line 17, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .li {
-  padding-bottom: .5em;
+  padding-bottom: 8px;
 }
 
 /*# sourceMappingURL=ul-checked.css.map */

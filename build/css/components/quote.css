@@ -38,16 +38,16 @@ img {
   font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
   width: 100%;
-  margin: 1em auto;
+  margin: 16px auto;
 }
 /* line 15, ../../../src/sass/components/quote.scss */
 .quote .copy {
   border-left: 3px solid;
-  padding-left: 1em;
+  padding-left: 16px;
 }
 /* line 19, ../../../src/sass/components/quote.scss */
 .quote .spacer {
-  width: 1em;
+  width: 16px;
 }
 
 /*# sourceMappingURL=quote.css.map */

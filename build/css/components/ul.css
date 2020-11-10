@@ -35,7 +35,7 @@ img {
 /****************End Reset**************/
 /* line 11, ../../../src/sass/components/ul.scss */
 .ul .spacer {
-  width: 1em;
+  width: 16px;
 }
 /* line 14, ../../../src/sass/components/ul.scss */
 .ul ul {
@@ -43,8 +43,8 @@ img {
 }
 /* line 16, ../../../src/sass/components/ul.scss */
 .ul ul li {
-  margin-bottom: .5em;
-  margin-left: 1.5em;
+  margin-bottom: 8px;
+  margin-left: 24px;
 }
 
 /*# sourceMappingURL=ul.css.map */

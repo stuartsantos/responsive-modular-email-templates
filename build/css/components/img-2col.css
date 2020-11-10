@@ -37,7 +37,7 @@ img {
 .img-2col {
   width: 100%;
   text-align: center;
-  margin: 1em 0;
+  margin: 16px 0;
 }
 /* line 14, ../../../src/sass/components/img-2col.scss */
 .img-2col img {
@@ -47,7 +47,7 @@ img {
 }
 /* line 19, ../../../src/sass/components/img-2col.scss */
 .img-2col .spacer {
-  width: 1em;
+  width: 16px;
 }
 
 /*# sourceMappingURL=img-2col.css.map */

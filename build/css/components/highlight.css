@@ -44,12 +44,12 @@ table {
   font-size: 20px;
   color: #fff;
   background: #C7DBF4;
-  padding: 1em;
+  padding: 16px;
 }
 
 /* line 21, ../../../src/sass/components/highlight.scss */
 .spacer {
-  width: 1em;
+  width: 16px;
 }
 
 /*# sourceMappingURL=highlight.css.map */

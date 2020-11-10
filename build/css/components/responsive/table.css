@@ -11,7 +11,7 @@
   .table td {
     display: block;
     text-align: right;
-    padding: 1em 1.5em !important;
+    padding: 16px 24px !important;
   }
   /* line 17, ../../../../src/sass/components/responsive/table.scss */
   .table td:before {
@@ -24,7 +24,7 @@
   /* line 25, ../../../../src/sass/components/responsive/table.scss */
   .table tr {
     display: block;
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
     border: 1px solid;
     border-bottom: 0;
   }

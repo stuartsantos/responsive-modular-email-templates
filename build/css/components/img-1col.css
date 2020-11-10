@@ -37,7 +37,7 @@ img {
 .img-1col {
   width: 100%;
   text-align: center;
-  margin: 1em 0;
+  margin: 16px 0;
 }
 /* line 14, ../../../src/sass/components/img-1col.scss */
 .img-1col img {

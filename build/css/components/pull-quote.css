@@ -38,14 +38,14 @@ img {
   font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
   width: 100%;
-  margin: 1em auto;
+  margin: 16px auto;
   font-size: 20px;
   text-align: center;
   color: #2DC4A5;
 }
 /* line 18, ../../../src/sass/components/pull-quote.scss */
 .pull-quote .spacer {
-  width: 1em;
+  width: 16px;
 }
 
 /*# sourceMappingURL=pull-quote.css.map */

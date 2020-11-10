@@ -37,7 +37,7 @@ img {
 .video-wrapper {
   width: 100%;
   text-align: center;
-  margin: 1em 0;
+  margin: 16px 0;
 }
 /* line 14, ../../../src/sass/components/video.scss */
 .video-wrapper video {

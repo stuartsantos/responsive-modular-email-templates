@@ -35,12 +35,12 @@ img {
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/table.scss */
 .wrapper {
-  margin: 1em 0;
+  margin: 16px 0;
   width: 100%;
 }
 /* line 13, ../../../src/sass/components/table.scss */
 .wrapper .spacer {
-  width: 1em;
+  width: 16px;
 }
 
 /* line 18, ../../../src/sass/components/table.scss */
@@ -54,7 +54,7 @@ img {
   text-align: left;
   font-size: 18px;
   color: #001871;
-  padding: 0 1.5em;
+  padding: 0 24px;
 }
 /* line 27, ../../../src/sass/components/table.scss */
 .table th:first-child {
@@ -62,7 +62,7 @@ img {
 }
 /* line 31, ../../../src/sass/components/table.scss */
 .table td {
-  padding: 1em 1.5em;
+  padding: 16px 24px;
   border-bottom: 1px solid;
 }
 /* line 34, ../../../src/sass/components/table.scss */
