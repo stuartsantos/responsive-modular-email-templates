@@ -11,20 +11,13 @@ module.exports = function(grunt) {
         }
       }
     },
-    copy: {
-      main: {
-        expand: true,
-        cwd: 'src/',
-        src: ['html/*.html', 'html/**/*.html', 'img/*.{png,jpg,gif}', 'img/**/*.{png,jpg,gif}'],
-        dest: 'build/'
-      }
-    },
     emailBuilder: {
       test :{
         files : [{
           expand: true,
-          src: ['build/**/*.html'],
-          dest: '.'
+          cwd: 'src/html',
+          src: ['**/*.html'],
+          dest: 'build/html'
         }]
       }
     },
@@ -33,16 +26,8 @@ module.exports = function(grunt) {
         files: ['src/sass/*.scss', 'src/sass/**/*.scss', 'config.rb'],
         tasks: ['compass']
       },
-      html: {
-        files: ['src/html/*.html', 'src/html/**/*.html'],
-        tasks: ['newer:copy']
-      },
-      img: {
-        files: ['src/img/**'],
-        tasks: ['newer:copy']
-      },
       inline: {
-        files: ['src/html/*.html', 'src/html/**/*.html', 'build/css/**/*.css'],
+        files: ['src/html/*.html', 'src/html/**/*.html', 'src/css/**/*.css'],
         tasks: ['newer:emailBuilder']
       }
     },
@@ -65,11 +50,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-email-builder');
   grunt.loadNpmTasks('grunt-newer');
 
+
   // Default task(s).
   grunt.registerTask('default', ['browserSync', 'watch']);
-
+  grunt.registerTask('inline', ['emailBuilder']);
 };
