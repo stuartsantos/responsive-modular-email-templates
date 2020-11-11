@@ -31,6 +31,11 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 11, ../../../src/sass/components/highlight.scss */
 table {
@@ -39,7 +44,7 @@ table {
 
 /* line 14, ../../../src/sass/components/highlight.scss */
 .highlight {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   font-size: 20px;
   color: #fff;
   background: #C7DBF4;

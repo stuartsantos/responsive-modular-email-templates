@@ -31,6 +31,11 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 10, ../../../src/sass/headers/aig-motion.scss */
 .header {
@@ -44,7 +49,7 @@ img {
 .header h1 {
   color: #fff;
   font-weight: normal;
-  font-family: "Source Sans Pro", sans-serif, sans-serif;
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   margin: 0 0 5px;
 }
 /* line 22, ../../../src/sass/headers/aig-motion.scss */

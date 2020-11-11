@@ -31,10 +31,15 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/heading.scss */
 .head {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   font-size: 24px;
   width: 100%;
   text-align: center;

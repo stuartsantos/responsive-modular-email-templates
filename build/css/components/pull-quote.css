@@ -31,16 +31,21 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/pull-quote.scss */
 .pull-quote {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   font-style: italic;
   width: 100%;
   margin: 16px auto;
   font-size: 20px;
   text-align: center;
-  color: #2DC4A5;
+  color: #1352DE;
   line-height: 1.3;
 }
 /* line 19, ../../../src/sass/components/pull-quote.scss */

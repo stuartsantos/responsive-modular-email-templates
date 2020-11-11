@@ -31,6 +31,11 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 10, ../../../src/sass/wrappers/wrapper-default.scss */
 .body {
@@ -46,44 +51,39 @@ img {
 }
 
 /* line 22, ../../../src/sass/wrappers/wrapper-default.scss */
-table, td {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-/* line 26, ../../../src/sass/wrappers/wrapper-default.scss */
 .wrapper {
   width: 620px;
   margin: auto;
 }
-/* line 29, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 25, ../../../src/sass/wrappers/wrapper-default.scss */
 .wrapper .spacer {
   width: 10px;
 }
 
-/* line 34, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 30, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader, .main, .footer {
   width: 100%;
-  color: #767676;
+  color: #343741;
 }
 
-/* line 39, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 35, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader, .footer {
   font-size: 10px;
 }
-/* line 41, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 37, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader a, .footer a {
   color: #767676;
 }
-/* line 43, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 39, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader a:hover, .footer a:hover {
   text-decoration: none;
 }
-/* line 47, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 43, ../../../src/sass/wrappers/wrapper-default.scss */
 .preheader td, .footer td {
   padding: 16px;
 }
 
-/* line 52, ../../../src/sass/wrappers/wrapper-default.scss */
+/* line 48, ../../../src/sass/wrappers/wrapper-default.scss */
 .main {
   background: #fff;
   border-radius: 2px;

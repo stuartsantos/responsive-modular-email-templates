@@ -18,7 +18,7 @@
     content: attr(data-label);
     float: left;
     text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
     color: #001871;
   }
   /* line 25, ../../../../src/sass/components/responsive/table.scss */

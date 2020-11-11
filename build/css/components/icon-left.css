@@ -31,6 +31,11 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 10, ../../../src/sass/components/icon-left.scss */
 .icon-left {
@@ -48,8 +53,8 @@ img {
 }
 /* line 20, ../../../src/sass/components/icon-left.scss */
 .icon-left .heading {
-  color: #2DC4A5;
-  font-family: "Source Sans Pro", sans-serif;
+  color: #1352DE;
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   font-size: 18px;
   padding-bottom: 16px;
 }

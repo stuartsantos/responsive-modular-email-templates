@@ -31,17 +31,22 @@ img {
   outline: none;
 }
 
+/* line 30, ../../../../src/sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
 /****************End Reset**************/
 /* line 10, ../../../../src/sass/components/mso/button.scss */
 .mso-button {
   text-align: center;
-  background: #fff;
+  background: #1352DE;
   margin: 16px auto;
 }
 /* line 14, ../../../../src/sass/components/mso/button.scss */
 .mso-button a {
-  color: #2DC4A5;
-  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   text-decoration: none;
 }
 /* line 19, ../../../../src/sass/components/mso/button.scss */
