@@ -43,6 +43,7 @@ img {
 /* line 17, ../../../src/sass/components/ul-checked.scss */
 .ul-checked .li {
   padding-bottom: 8px;
+  line-height: 1.3;
 }
 
 /*# sourceMappingURL=ul-checked.css.map */

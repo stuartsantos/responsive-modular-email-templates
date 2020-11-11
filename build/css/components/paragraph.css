@@ -37,8 +37,9 @@ img {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
   margin: 0 auto;
+  line-height: 1.3;
 }
-/* line 14, ../../../src/sass/components/paragraph.scss */
+/* line 15, ../../../src/sass/components/paragraph.scss */
 .paragraph td {
   padding: 16px;
 }

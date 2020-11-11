@@ -72,4 +72,7 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['browserSync', 'watch']);
 
+  //run to inline css
+  grunt.registerTask('inlinecss', ['emailBuilder']);
+
 };

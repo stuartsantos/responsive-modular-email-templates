@@ -44,9 +44,10 @@ table {
   color: #fff;
   background: #C7DBF4;
   padding: 16px;
+  line-height: 1.3;
 }
 
-/* line 21, ../../../src/sass/components/highlight.scss */
+/* line 22, ../../../src/sass/components/highlight.scss */
 .spacer {
   width: 16px;
 }

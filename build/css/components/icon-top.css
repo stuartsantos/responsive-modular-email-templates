@@ -54,10 +54,14 @@ img {
   padding-bottom: 16px;
 }
 /* line 26, ../../../src/sass/components/icon-top.scss */
+.icon-top .content {
+  line-height: 1.3;
+}
+/* line 29, ../../../src/sass/components/icon-top.scss */
 .icon-top .spacer {
   padding: 16px;
 }
-/* line 29, ../../../src/sass/components/icon-top.scss */
+/* line 32, ../../../src/sass/components/icon-top.scss */
 .icon-top .icon-container {
   width: 100%;
 }
