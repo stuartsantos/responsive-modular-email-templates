@@ -8,11 +8,11 @@
 @import '../partials/_reset.scss';
 
 .head {
-  font-family: $source-reg;
-  font-size: 24px;
   width: 100%;
   text-align: center;
   td {
     padding: 4px 16px;
+    font-size: 24px;
+    font-weight: bold;
   }
 }

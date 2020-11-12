@@ -1,19 +1,19 @@
 @media (max-width: 600px) {
-  /* line 7, ../../../../src/sass/components/responsive/table.scss */
+  /* line 7, ../../../sass/components/responsive/table.scss */
   .table {
     width: 100%;
   }
-  /* line 10, ../../../../src/sass/components/responsive/table.scss */
+  /* line 10, ../../../sass/components/responsive/table.scss */
   .table thead {
     display: none;
   }
-  /* line 13, ../../../../src/sass/components/responsive/table.scss */
+  /* line 13, ../../../sass/components/responsive/table.scss */
   .table td {
     display: block;
     text-align: right;
     padding: 16px 24px !important;
   }
-  /* line 17, ../../../../src/sass/components/responsive/table.scss */
+  /* line 17, ../../../sass/components/responsive/table.scss */
   .table td:before {
     content: attr(data-label);
     float: left;
@@ -21,18 +21,18 @@
     font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
     color: #001871;
   }
-  /* line 25, ../../../../src/sass/components/responsive/table.scss */
+  /* line 25, ../../../sass/components/responsive/table.scss */
   .table tr {
     display: block;
     margin-bottom: 24px;
     border: 1px solid;
     border-bottom: 0;
   }
-  /* line 30, ../../../../src/sass/components/responsive/table.scss */
+  /* line 30, ../../../sass/components/responsive/table.scss */
   .table tr:last-child td {
     border-bottom: 1px solid !important;
   }
-  /* line 32, ../../../../src/sass/components/responsive/table.scss */
+  /* line 32, ../../../sass/components/responsive/table.scss */
   .table tr:last-child td:last-child {
     border-bottom: 0;
   }

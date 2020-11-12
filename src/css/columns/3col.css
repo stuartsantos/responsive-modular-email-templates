@@ -1,5 +1,5 @@
 /***************Reset******************/
-/* line 3, ../../../src/sass/partials/_reset.scss */
+/* line 3, ../../sass/partials/_reset.scss */
 html, body, div, span, td {
   margin: 0;
   padding: 0;
@@ -8,36 +8,36 @@ html, body, div, span, td {
   vertical-align: baseline;
 }
 
-/* line 11, ../../../src/sass/partials/_reset.scss */
+/* line 11, ../../sass/partials/_reset.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 16, ../../../src/sass/partials/_reset.scss */
+/* line 16, ../../sass/partials/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 20, ../../../src/sass/partials/_reset.scss */
+/* line 20, ../../sass/partials/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 25, ../../../src/sass/partials/_reset.scss */
+/* line 25, ../../sass/partials/_reset.scss */
 img {
   border: 0;
   outline: none;
 }
 
-/* line 30, ../../../src/sass/partials/_reset.scss */
+/* line 30, ../../sass/partials/_reset.scss */
 table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
 /****************End Reset**************/
-/* line 10, ../../../src/sass/columns/3col.scss */
+/* line 10, ../../sass/columns/3col.scss */
 .col-3 {
   width: 200px;
   margin: auto 0;

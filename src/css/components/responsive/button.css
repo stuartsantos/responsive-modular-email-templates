@@ -1,7 +1,7 @@
-/* line 9, ../../../../src/sass/components/responsive/button.scss */
+/* line 9, ../../../sass/components/responsive/button.scss */
 .button a:hover {
   transition: all .5s;
-  background: #ddd !important;
+  background: #001871 !important;
 }
 
 /*# sourceMappingURL=button.css.map */

@@ -8,11 +8,11 @@
 @import '../partials/_reset.scss';
 
 .subheading {
-  font-family: $source-reg;
   width: 100%;
   text-align: center;
   color: $cobalt;
   td {
     padding: 4px 16px;
+    font-weight: bold;
   }
 }
