@@ -2,19 +2,15 @@
 .button {
   text-align: center;
   margin: 16px 0;
-}
-/* line 10, ../../../sass/components/mso/button.scss */
-.button td {
   background: transparent !important;
-  padding: 0 !important;
   box-shadow: none !important;
+}
+/* line 12, ../../../sass/components/mso/button.scss */
+.button td {
+  padding: 0 !important;
 }
 /* line 15, ../../../sass/components/mso/button.scss */
 .button a {
-  border-radius: 25px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  padding: 15px 40px;
-  font-weight: bold;
   display: block;
 }
 
