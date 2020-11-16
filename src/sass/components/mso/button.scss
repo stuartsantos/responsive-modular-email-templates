@@ -4,21 +4,20 @@
 //variables
 @import '../../partials/_variables.scss';
 
-//reset
-@import '../../partials/_reset.scss';
-
-.mso-button {
+.button {
   text-align: center;
-  background: $cobalt;
-  margin: 16px auto;
-  a {
-    color: #fff;
-    font-family: $source-reg;
-    text-decoration: none;
-    font-weight: bold;
-  }
+  margin: 16px 0;
   td {
+    background: transparent !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  a {
+    border-radius: 25px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+    background: $cobalt;
     padding: 15px 40px;
-    border: 1px solid #ddd;
+    font-weight: bold;
+    display: block;
   }
 }

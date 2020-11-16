@@ -1,59 +1,22 @@
-/***************Reset******************/
-/* line 3, ../../../sass/partials/_reset.scss */
-html, body, div, span, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 16px;
-  vertical-align: baseline;
-}
-
-/* line 11, ../../../sass/partials/_reset.scss */
-html, body {
-  width: 100%;
-  height: 100%;
-}
-
-/* line 16, ../../../sass/partials/_reset.scss */
-body {
-  line-height: 1;
-}
-
-/* line 20, ../../../sass/partials/_reset.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 25, ../../../sass/partials/_reset.scss */
-img {
-  border: 0;
-  outline: none;
-}
-
-/* line 30, ../../../sass/partials/_reset.scss */
-table, td {
-  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
-}
-
-/****************End Reset**************/
-/* line 10, ../../../sass/components/mso/button.scss */
-.mso-button {
+/* line 7, ../../../sass/components/mso/button.scss */
+.button {
   text-align: center;
+  margin: 16px 0;
+}
+/* line 10, ../../../sass/components/mso/button.scss */
+.button td {
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+/* line 15, ../../../sass/components/mso/button.scss */
+.button a {
+  border-radius: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
   background: #1352DE;
-  margin: 16px auto;
-}
-/* line 14, ../../../sass/components/mso/button.scss */
-.mso-button a {
-  color: #fff;
-  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-}
-/* line 20, ../../../sass/components/mso/button.scss */
-.mso-button td {
   padding: 15px 40px;
-  border: 1px solid #ddd;
+  font-weight: bold;
+  display: block;
 }
 
 /*# sourceMappingURL=button.css.map */

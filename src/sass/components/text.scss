@@ -7,7 +7,7 @@
 //reset
 @import '../partials/_reset.scss';
 
-.paragraph {
+.text {
   font-family: $source-reg;
   width: 100%;
   margin: 0 auto;
@@ -15,5 +15,8 @@
   td {
     padding: 16px;
     color: #343741;
+  }
+  a {
+    color: $cobalt;
   }
 }

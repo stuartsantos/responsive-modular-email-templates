@@ -37,17 +37,21 @@ table, td {
 }
 
 /****************End Reset**************/
-/* line 10, ../../sass/components/paragraph.scss */
-.paragraph {
+/* line 10, ../../sass/components/text.scss */
+.text {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   width: 100%;
   margin: 0 auto;
   line-height: 1.3;
 }
-/* line 15, ../../sass/components/paragraph.scss */
-.paragraph td {
+/* line 15, ../../sass/components/text.scss */
+.text td {
   padding: 16px;
   color: #343741;
 }
+/* line 19, ../../sass/components/text.scss */
+.text a {
+  color: #1352DE;
+}
 
-/*# sourceMappingURL=paragraph.css.map */
+/*# sourceMappingURL=text.css.map */
