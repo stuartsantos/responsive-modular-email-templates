@@ -7,12 +7,13 @@
 //reset
 @import '../partials/_reset.scss';
 
-.head {
+.img-full-width {
   width: 100%;
   text-align: center;
-  td {
-    padding: 4px 0;
-    font-size: 24px;
-    font-weight: bold;
+  margin: 16px 0;
+  img {
+    display: block;
+    margin: auto;
+    width: 600px;
   }
 }

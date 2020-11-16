@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  /* line 9, ../../../sass/components/responsive/img-full-width.scss */
+  .img-full-width img {
+    width: auto !important;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=img-full-width.css.map */

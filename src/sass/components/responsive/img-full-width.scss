@@ -1,0 +1,13 @@
+//utils
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../../partials/_variables.scss';
+
+
+@include breakpoint(sub-desktop) {
+  .img-full-width img {
+    width: auto !important;
+    max-width: 100%;
+  }
+}
