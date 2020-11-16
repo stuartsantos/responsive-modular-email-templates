@@ -46,26 +46,22 @@ table, td {
 .icon-right .icon {
   width: 100px;
 }
-/* line 15, ../../sass/components/icon-right.scss */
-.icon-right .icon td {
-  padding-left: 32px;
-}
-/* line 19, ../../sass/components/icon-right.scss */
+/* line 16, ../../sass/components/icon-right.scss */
 .icon-right .text {
   width: 436px;
 }
-/* line 22, ../../sass/components/icon-right.scss */
+/* line 19, ../../sass/components/icon-right.scss */
 .icon-right .heading {
   color: #1352DE;
   font-size: 18px;
   padding-bottom: 16px;
   font-weight: bold;
 }
-/* line 28, ../../sass/components/icon-right.scss */
+/* line 25, ../../sass/components/icon-right.scss */
 .icon-right .content {
   line-height: 1.3;
 }
-/* line 31, ../../sass/components/icon-right.scss */
+/* line 28, ../../sass/components/icon-right.scss */
 .icon-right .spacer {
   padding: 16px;
 }

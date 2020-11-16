@@ -40,19 +40,20 @@ table, td {
 /* line 10, ../../sass/components/button.scss */
 .button {
   text-align: center;
-  margin: 16px 0;
-  width: 100%;
-}
-/* line 14, ../../sass/components/button.scss */
-.button a {
+  margin: 16px auto;
   border-radius: 25px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
   background: #1352DE;
+}
+/* line 16, ../../sass/components/button.scss */
+.button td {
+  padding: 15px 40px;
+}
+/* line 18, ../../sass/components/button.scss */
+.button td a {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   color: #fff;
   text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
   font-weight: bold;
 }
 
