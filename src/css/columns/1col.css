@@ -1,0 +1,46 @@
+/***************Reset******************/
+/* line 3, ../../sass/partials/_reset.scss */
+html, body, div, span, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+/* line 11, ../../sass/partials/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 16, ../../sass/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 20, ../../sass/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 25, ../../sass/partials/_reset.scss */
+img {
+  border: 0;
+  outline: none;
+}
+
+/* line 30, ../../sass/partials/_reset.scss */
+table, td {
+  font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
+}
+
+/****************End Reset**************/
+/* line 10, ../../sass/columns/1col.scss */
+.col-1 {
+  width: 600px;
+  padding: 32px;
+}
+
+/*# sourceMappingURL=1col.css.map */

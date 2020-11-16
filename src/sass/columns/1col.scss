@@ -1,0 +1,13 @@
+//utils
+@import "compass/utilities/general/clearfix";
+
+//variables
+@import '../partials/_variables.scss';
+
+//reset
+@import '../partials/_reset.scss';
+
+.col-1 {
+  width: 600px;
+  padding: 32px;
+}
