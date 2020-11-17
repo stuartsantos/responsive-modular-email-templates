@@ -9,5 +9,7 @@
 
 .col-3 {
   width: 200px;
-  margin: auto 0;
+  .spacer {
+    padding: 16px;
+  }
 }

@@ -9,10 +9,11 @@
   margin: 16px 0;
   background: transparent !important;
   box-shadow: none !important;
-  td {
+  td.fallback {
     padding: 0 !important;
   }
   a {
     display: block;
+    padding: 15px 40px;
   }
 }

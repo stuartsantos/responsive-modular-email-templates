@@ -36,22 +36,23 @@ table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
+/* line 34, ../../sass/partials/_reset.scss */
+.spacer {
+  padding: 16px 0;
+}
+
 /****************End Reset**************/
 /* line 10, ../../sass/components/table.scss */
 .wrapper {
   margin: 16px 0;
   width: 100%;
 }
-/* line 13, ../../sass/components/table.scss */
-.wrapper .spacer {
-  width: 16px;
-}
 
-/* line 18, ../../sass/components/table.scss */
+/* line 15, ../../sass/components/table.scss */
 .table {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
-/* line 20, ../../sass/components/table.scss */
+/* line 17, ../../sass/components/table.scss */
 .table th {
   font-weight: bold;
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
@@ -60,20 +61,20 @@ table, td {
   color: #001871;
   padding: 0 24px;
 }
-/* line 27, ../../sass/components/table.scss */
+/* line 24, ../../sass/components/table.scss */
 .table th:first-child {
   padding-left: 0;
 }
-/* line 31, ../../sass/components/table.scss */
+/* line 28, ../../sass/components/table.scss */
 .table td {
   padding: 16px 24px;
   border-bottom: 1px solid;
 }
-/* line 34, ../../sass/components/table.scss */
+/* line 31, ../../sass/components/table.scss */
 .table td:first-child {
   padding-left: 0;
 }
-/* line 38, ../../sass/components/table.scss */
+/* line 35, ../../sass/components/table.scss */
 .table tr:last-child td {
   border-bottom: none;
 }

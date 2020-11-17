@@ -36,6 +36,11 @@ table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
+/* line 34, ../../sass/partials/_reset.scss */
+.spacer {
+  padding: 16px 0;
+}
+
 /****************End Reset**************/
 /* line 10, ../../sass/components/pull-quote.scss */
 .pull-quote {
@@ -47,10 +52,6 @@ table, td {
   text-align: center;
   color: #1352DE;
   line-height: 1.3;
-}
-/* line 19, ../../sass/components/pull-quote.scss */
-.pull-quote .spacer {
-  width: 16px;
 }
 
 /*# sourceMappingURL=pull-quote.css.map */

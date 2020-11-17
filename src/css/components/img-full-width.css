@@ -42,14 +42,17 @@ table, td {
 }
 
 /****************End Reset**************/
-/* line 11, ../../sass/components/ul-checked.scss */
-.ul-checked .bullet {
-  width: 28px;
+/* line 10, ../../sass/components/img-full-width.scss */
+.img-full-width {
+  width: 100%;
+  text-align: center;
+  margin: 16px 0;
 }
-/* line 14, ../../sass/components/ul-checked.scss */
-.ul-checked .li {
-  padding-bottom: 8px;
-  line-height: 1.3;
+/* line 14, ../../sass/components/img-full-width.scss */
+.img-full-width img {
+  display: block;
+  margin: auto;
+  width: 600px;
 }
 
-/*# sourceMappingURL=ul-checked.css.map */
+/*# sourceMappingURL=img-full-width.css.map */

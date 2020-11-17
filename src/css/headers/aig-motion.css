@@ -36,6 +36,11 @@ table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
+/* line 34, ../../sass/partials/_reset.scss */
+.spacer {
+  padding: 16px 0;
+}
+
 /****************End Reset**************/
 /* line 10, ../../sass/headers/aig-motion.scss */
 .header {

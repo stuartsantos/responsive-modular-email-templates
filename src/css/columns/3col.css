@@ -36,11 +36,19 @@ table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
+/* line 34, ../../sass/partials/_reset.scss */
+.spacer {
+  padding: 16px 0;
+}
+
 /****************End Reset**************/
 /* line 10, ../../sass/columns/3col.scss */
 .col-3 {
   width: 200px;
-  margin: auto 0;
+}
+/* line 12, ../../sass/columns/3col.scss */
+.col-3 .spacer {
+  padding: 16px;
 }
 
 /*# sourceMappingURL=3col.css.map */

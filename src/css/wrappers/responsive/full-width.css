@@ -108,11 +108,10 @@ source-italic-bold: 'Source Sans Pro', sans-serif; font-weight: 700; font-style:
   /* line 23, ../../../sass/wrappers/responsive/full-width.scss */
   .col-2, .col-3 {
     width: 100% !important;
-    display: block;
   }
 }
 
-/* line 30, ../../../sass/wrappers/responsive/full-width.scss */
+/* line 29, ../../../sass/wrappers/responsive/full-width.scss */
 table {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;

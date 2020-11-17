@@ -36,6 +36,11 @@ table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
+/* line 34, ../../sass/partials/_reset.scss */
+.spacer {
+  padding: 16px 0;
+}
+
 /****************End Reset**************/
 /* line 10, ../../sass/components/icon-right.scss */
 .icon-right {
@@ -48,7 +53,7 @@ table, td {
 }
 /* line 16, ../../sass/components/icon-right.scss */
 .icon-right .text {
-  width: 436px;
+  width: 372px;
 }
 /* line 19, ../../sass/components/icon-right.scss */
 .icon-right .heading {
@@ -60,10 +65,6 @@ table, td {
 /* line 25, ../../sass/components/icon-right.scss */
 .icon-right .content {
   line-height: 1.3;
-}
-/* line 28, ../../sass/components/icon-right.scss */
-.icon-right .spacer {
-  padding: 16px;
 }
 
 /*# sourceMappingURL=icon-right.css.map */

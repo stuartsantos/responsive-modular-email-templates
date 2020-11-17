@@ -36,16 +36,18 @@ table, td {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
 }
 
+/* line 34, ../../sass/partials/_reset.scss */
+.spacer {
+  padding: 16px 0;
+}
+
 /****************End Reset**************/
 /* line 11, ../../sass/components/ul.scss */
-.ul .spacer {
-  width: 16px;
-}
-/* line 14, ../../sass/components/ul.scss */
 .ul ul {
   padding: 0;
+  margin: 0;
 }
-/* line 16, ../../sass/components/ul.scss */
+/* line 14, ../../sass/components/ul.scss */
 .ul ul li {
   margin-bottom: 8px;
   margin-left: 24px;

@@ -6,12 +6,13 @@
   box-shadow: none !important;
 }
 /* line 12, ../../../sass/components/mso/button.scss */
-.button td {
+.button td.fallback {
   padding: 0 !important;
 }
 /* line 15, ../../../sass/components/mso/button.scss */
 .button a {
   display: block;
+  padding: 15px 40px;
 }
 
 /*# sourceMappingURL=button.css.map */

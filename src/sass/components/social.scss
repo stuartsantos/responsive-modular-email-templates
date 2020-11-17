@@ -8,6 +8,10 @@
 @import '../partials/_reset.scss';
 
 
-.social td {
-  padding: 8px;
-}
+.social {
+  text-align: center;
+  td {
+    padding: 8px;
+    display: inline-block;
+  }
+} 
