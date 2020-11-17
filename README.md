@@ -1,1 +1,1 @@
-module-based html email templates for responsys
+module-based responsive html email templates
