@@ -9,6 +9,7 @@
 
 .col-2 {
   width: 300px;
-  margin: auto 0;
-  padding: 16px;
+  .spacer {
+    padding: 16px;
+  }
 }

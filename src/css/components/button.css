@@ -45,17 +45,17 @@ table, td {
 /* line 10, ../../sass/components/button.scss */
 .button {
   text-align: center;
-  margin: 16px auto;
-  border-radius: 25px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  background: #1352DE;
+  margin: auto;
 }
-/* line 16, ../../sass/components/button.scss */
-.button td {
+/* line 13, ../../sass/components/button.scss */
+.button td.fallback {
   padding: 15px 40px;
+  background: #1352DE;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 25px;
 }
 /* line 18, ../../sass/components/button.scss */
-.button td a {
+.button td.fallback a {
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   color: #fff;
   text-decoration: none;
@@ -64,6 +64,10 @@ table, td {
   border-radius: 25px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
   font-weight: bold;
+}
+/* line 29, ../../sass/components/button.scss */
+.button .spacer {
+  padding: 16px 0;
 }
 
 /*# sourceMappingURL=button.css.map */

@@ -9,12 +9,12 @@
 
 .button {
   text-align: center;
-  margin: 16px auto;
-  border-radius: 25px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  background: $cobalt;
-  td {
+  margin: auto;
+  td.fallback {
     padding: 15px 40px;
+    background: $cobalt;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
     a {
       font-family: $source-reg;
       color: #fff;
@@ -25,5 +25,8 @@
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
       font-weight: bold;
     }
+  }
+  .spacer {
+    padding: 16px 0;
   }
 }

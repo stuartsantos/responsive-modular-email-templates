@@ -21,7 +21,7 @@
 
 .col-1 {
   @include breakpoint(sub-desktop) {
-    padding: 16px;
+    padding: 16px !important;
   }
 }
 

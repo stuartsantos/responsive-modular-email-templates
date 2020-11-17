@@ -45,7 +45,9 @@ table, td {
 /* line 10, ../../sass/columns/3col.scss */
 .col-3 {
   width: 200px;
-  margin: auto 0;
+}
+/* line 12, ../../sass/columns/3col.scss */
+.col-3 .spacer {
   padding: 16px;
 }
 

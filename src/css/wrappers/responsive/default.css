@@ -106,7 +106,7 @@ source-italic-bold: 'Source Sans Pro', sans-serif; font-weight: 700; font-style:
 @media (max-width: 600px) {
   /* line 22, ../../../sass/wrappers/responsive/default.scss */
   .col-1 {
-    padding: 16px;
+    padding: 16px !important;
   }
 }
 
