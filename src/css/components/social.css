@@ -48,7 +48,7 @@ table, td {
 }
 /* line 13, ../../sass/components/social.scss */
 .social td {
-  padding: 8px;
+  padding: 0 8px;
   display: inline-block;
 }
 

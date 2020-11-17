@@ -46,9 +46,8 @@ table, td {
 .img-1col {
   width: 100%;
   text-align: center;
-  margin: 16px 0;
 }
-/* line 14, ../../sass/components/img-1col.scss */
+/* line 13, ../../sass/components/img-1col.scss */
 .img-1col img {
   display: block;
   margin: auto;

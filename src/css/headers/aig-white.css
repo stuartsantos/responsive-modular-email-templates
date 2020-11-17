@@ -46,30 +46,29 @@ table, td {
 .header {
   width: 100%;
   text-align: center;
-  padding-bottom: 20px;
-  background: #005984;
+  background: #001871;
   border-radius: 2px 2px 0 0;
 }
-/* line 16, ../../sass/headers/aig-white.scss */
+/* line 15, ../../sass/headers/aig-white.scss */
 .header h1 {
   color: #fff;
   font-weight: normal;
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   margin: 0 0 5px;
 }
-/* line 22, ../../sass/headers/aig-white.scss */
+/* line 21, ../../sass/headers/aig-white.scss */
 .header .heading {
   padding-bottom: 20px;
 }
-/* line 25, ../../sass/headers/aig-white.scss */
+/* line 24, ../../sass/headers/aig-white.scss */
 .header .flavor {
   color: #fff;
 }
-/* line 28, ../../sass/headers/aig-white.scss */
+/* line 27, ../../sass/headers/aig-white.scss */
 .header .logo {
   padding: 20px;
 }
-/* line 31, ../../sass/headers/aig-white.scss */
+/* line 30, ../../sass/headers/aig-white.scss */
 .header img {
   display: block;
   margin: auto;

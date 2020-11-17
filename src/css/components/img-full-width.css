@@ -46,9 +46,8 @@ table, td {
 .img-full-width {
   width: 100%;
   text-align: center;
-  margin: 16px 0;
 }
-/* line 14, ../../sass/components/img-full-width.scss */
+/* line 13, ../../sass/components/img-full-width.scss */
 .img-full-width img {
   display: block;
   margin: auto;

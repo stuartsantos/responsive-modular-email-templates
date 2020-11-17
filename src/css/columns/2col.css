@@ -50,5 +50,9 @@ table, td {
 .col-2 .spacer {
   padding: 16px;
 }
+/* line 15, ../../sass/columns/2col.scss */
+.col-2 table {
+  width: 100%;
+}
 
 /*# sourceMappingURL=2col.css.map */

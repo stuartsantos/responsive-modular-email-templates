@@ -46,28 +46,27 @@ table, td {
 .header {
   width: 100%;
   text-align: center;
-  padding-bottom: 20px;
 }
-/* line 14, ../../sass/headers/aig.scss */
+/* line 13, ../../sass/headers/aig.scss */
 .header h1 {
   color: #001871;
   font-weight: bold;
   font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
   margin: 0 0 5px;
 }
-/* line 20, ../../sass/headers/aig.scss */
+/* line 19, ../../sass/headers/aig.scss */
 .header .heading {
   padding-bottom: 20px;
 }
-/* line 23, ../../sass/headers/aig.scss */
+/* line 22, ../../sass/headers/aig.scss */
 .header .flavor {
   color: #001871;
 }
-/* line 26, ../../sass/headers/aig.scss */
+/* line 25, ../../sass/headers/aig.scss */
 .header .logo {
   padding: 20px;
 }
-/* line 29, ../../sass/headers/aig.scss */
+/* line 28, ../../sass/headers/aig.scss */
 .header img {
   display: block;
   margin: auto;
