@@ -33,7 +33,6 @@
 }
 
 .preheader, .footer {
-  font-size: 10px;
   a {
     color: #767676;
     &:hover {
@@ -42,6 +41,7 @@
   }
   td {
     padding: 16px;
+    font-size: 10px;
   }
 }
 

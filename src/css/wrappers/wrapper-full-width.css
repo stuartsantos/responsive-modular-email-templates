@@ -72,21 +72,21 @@ table, td {
 
 /* line 34, ../../sass/wrappers/wrapper-full-width.scss */
 .preheader, .footer {
-  font-size: 10px;
   width: 620px;
   margin: auto;
 }
-/* line 38, ../../sass/wrappers/wrapper-full-width.scss */
+/* line 37, ../../sass/wrappers/wrapper-full-width.scss */
 .preheader a, .footer a {
   color: #767676;
 }
-/* line 40, ../../sass/wrappers/wrapper-full-width.scss */
+/* line 39, ../../sass/wrappers/wrapper-full-width.scss */
 .preheader a:hover, .footer a:hover {
   text-decoration: none;
 }
-/* line 44, ../../sass/wrappers/wrapper-full-width.scss */
+/* line 43, ../../sass/wrappers/wrapper-full-width.scss */
 .preheader td, .footer td {
   padding: 16px;
+  font-size: 10px;
 }
 
 /* line 49, ../../sass/wrappers/wrapper-full-width.scss */

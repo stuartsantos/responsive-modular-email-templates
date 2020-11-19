@@ -43,10 +43,15 @@ table, td {
 
 /****************End Reset**************/
 /* line 11, ../../sass/components/social.scss */
+table {
+  width: 100%;
+}
+
+/* line 15, ../../sass/components/social.scss */
 .social {
   text-align: center;
 }
-/* line 13, ../../sass/components/social.scss */
+/* line 17, ../../sass/components/social.scss */
 .social td {
   padding: 0 8px;
   display: inline-block;

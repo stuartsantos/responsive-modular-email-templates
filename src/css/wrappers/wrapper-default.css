@@ -71,21 +71,18 @@ table, td {
   color: #343741;
 }
 
-/* line 35, ../../sass/wrappers/wrapper-default.scss */
-.preheader, .footer {
-  font-size: 10px;
-}
-/* line 37, ../../sass/wrappers/wrapper-default.scss */
+/* line 36, ../../sass/wrappers/wrapper-default.scss */
 .preheader a, .footer a {
   color: #767676;
 }
-/* line 39, ../../sass/wrappers/wrapper-default.scss */
+/* line 38, ../../sass/wrappers/wrapper-default.scss */
 .preheader a:hover, .footer a:hover {
   text-decoration: none;
 }
-/* line 43, ../../sass/wrappers/wrapper-default.scss */
+/* line 42, ../../sass/wrappers/wrapper-default.scss */
 .preheader td, .footer td {
   padding: 16px;
+  font-size: 10px;
 }
 
 /* line 48, ../../sass/wrappers/wrapper-default.scss */
