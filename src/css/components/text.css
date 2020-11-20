@@ -50,10 +50,6 @@ table, td {
   line-height: 1.3;
 }
 /* line 15, ../../sass/components/text.scss */
-.text td {
-  color: #343741;
-}
-/* line 18, ../../sass/components/text.scss */
 .text a {
   color: #1352DE;
 }
