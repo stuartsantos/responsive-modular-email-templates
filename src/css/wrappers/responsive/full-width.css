@@ -11,23 +11,24 @@ The final product would look like this for a table or table cell
 or
 <td style="color: #001871; background: #C7DBF4;">
 
-primary colors              secondary colors          orange: #FF8200;            green: #00BF6F;             red: #E81944;
-aig-core-blue: #001871;     cyan: #00A4E4;            lightest-orange: #FFE5C5;   lightest-green: #BDF0DF;    lightest-red: #FBE7EB;
-pale-aig-blue: #C7DBF4;     lightest-cyan: #E0F3FB;   light-orange: #FECB8B;      light-green: #7AE1BF;       light-red: #F7CED7;
-cobalt-aig-blue: #1352DE;   light-cyan: #C0E7F7;      medium-orange: #FFB466;     medium-green: #4DD29A;      medium-red: #F68CA2;
-                            medium-cyan: #80D2F2;     dark-orange: #A9431E;       dark-green: #047E4B;        dark-red: #CB0029;
+primary colors              secondary colors          orange: #FF8200;            green: #00BF6F;
+aig-core-blue: #001871;     cyan: #00A4E4;            lightest-orange: #FFE5C5;   lightest-green: #BDF0DF;
+pale-aig-blue: #C7DBF4;     lightest-cyan: #E0F3FB;   light-orange: #FECB8B;      light-green: #7AE1BF;
+cobalt-aig-blue: #1352DE;   light-cyan: #C0E7F7;      medium-orange: #FFB466;     medium-green: #4DD29A;
+                            medium-cyan: #80D2F2;     dark-orange: #A9431E;       dark-green: #047E4B;
                             dark-cyan: #00719E;
 
-yellow: #FFBF3F;            purple: #904FD8;            teal: #00BFB3;            gray: #B1B1B1;            warm-gray: #B6ADA5;
-lightest-yellow: #FCF2CD;   lightest-purple: #E2DAF1;   lightest-teal: #E0F8F3;   lightest-gray: #EEEEEE;   lightest-warm-gray: #EBE9E5;
-light-yellow: #F8E59A;      light-purple: #C5B4E3;      light-teal: #C1F0E8;      light-gray: #DCDCDC;      light-warm-gray: #D7D2CB;
-medium-yellow: #FFD279;     medium-purple: #BC95E8;     medium-teal: #80DFD9;     medium-gray: #D0D0D0;     medium-warm-gray: #C8C2BC;
+yellow: #FFBF3F;            purple: #904FD8;            teal: #00BFB3;            gray: #B1B1B1;
+lightest-yellow: #FCF2CD;   lightest-purple: #E2DAF1;   lightest-teal: #E0F8F3;   lightest-gray: #EEEEEE;
+light-yellow: #F8E59A;      light-purple: #C5B4E3;      light-teal: #C1F0E8;      light-gray: #DCDCDC;
+medium-yellow: #FFD279;     medium-purple: #BC95E8;     medium-teal: #80DFD9;     medium-gray: #D0D0D0;
 dark-yellow: #A9662B;       dark-purple: #6800DB;       dark-teal: #007D7D;       dark-gray: #343741;
 
-steel: #7086A1;
-lightest-steel: #DCE2EA;
-light-steel: #93A3B7;
-dark-steel: #5D738D;
+steel: #7086A1;             red: #E81944;             warm-gray: #B6ADA5;
+lightest-steel: #DCE2EA;    lightest-red: #FBE7EB;    lightest-warm-gray: #EBE9E5;
+light-steel: #93A3B7;       light-red: #F7CED7;       light-warm-gray: #D7D2CB;
+dark-steel: #5D738D;        medium-red: #F68CA2;      medium-warm-gray: #C8C2BC;
+                            dark-red: #CB0029;
 
 */
 @media (max-width: 600px) {
