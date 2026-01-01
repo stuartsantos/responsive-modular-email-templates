@@ -22,7 +22,6 @@
   "homepage": "https://github.com/stuartsantos/responsys-templates",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
-    "cryptiles": "^4.1.3",
     "grunt": "~1.6.1",
     "grunt-browser-sync": "^2.1.1",
     "grunt-contrib-compass": "^1.1.1",
@@ -49,9 +48,9 @@
     "tough-cookie": "^5.0.0",
     "nth-check": "^2.1.1",
     "send": "^0.19.0",
-    "nodemailer": "^6.9.14",
+    "nodemailer": "^7.0.12",
     "clean-css": "^5.3.3",
-    "qs": "^6.13.0",
+    "qs": "^6.14.1",
     "mime": "^4.0.4",
     "diff": "^5.2.0",
     "semver-regex": "^4.0.5",
@@ -59,6 +58,18 @@
     "meow": "^13.0.0",
     "js-yaml": "^4.1.0",
     "serve-static": "^1.16.2",
-    "tunnel-agent": "^0.6.0"
+    "tunnel-agent": "^0.6.0",
+    "hawk": "^9.0.2",
+    "hoek": "npm:@hapi/hoek@^11.0.4",
+    "boom": "npm:@hapi/boom@^10.0.1",
+    "cryptiles": "npm:@hapi/cryptiles@^6.0.1",
+    "sntp": "npm:@hapi/sntp@^5.0.7",
+    "jsdom": "^27.4.0",
+    "juice": "^11.0.3",
+    "cheerio": "^1.0.0",
+    "web-resource-inliner": "^6.0.1",
+    "request": "^2.88.2",
+    "email-builder-core": "^2.1.2",
+    "litmus-api": "^0.3.2"
   }
 }
