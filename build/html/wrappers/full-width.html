@@ -2,8 +2,14 @@
 <html lang="en" style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; width: 100%; height: 100%;">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <title>Subject Line Goes Here</title>
-  
+
   <style type="text/css">
 /*
 
@@ -38,80 +44,115 @@ dark-steel: #5D738D;        medium-red: #F68CA2;      medium-warm-gray: #C8C2BC;
                             dark-red: #CB0029;
 
 */
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .body-bg { background-color: #1a1a1a !important; }
+  .content-bg { background-color: #2d2d2d !important; }
+  .dark-text { color: #ffffff !important; }
+  .dark-text-secondary { color: #cccccc !important; }
+}
+
+/* Gmail dark mode */
+[data-ogsc] .body-bg { background-color: #1a1a1a !important; }
+[data-ogsc] .content-bg { background-color: #2d2d2d !important; }
+[data-ogsc] .dark-text { color: #ffffff !important; }
+
+/* Outlook.com dark mode */
+[data-ogsb] .body-bg { background-color: #1a1a1a !important; }
+[data-ogsb] .content-bg { background-color: #2d2d2d !important; }
+
 @media (max-width: 600px) {
-  /* line 10, ../../../sass/wrappers/responsive/full-width.scss */
   .wrapper, .preheader, .footer, .section {
     width: 100% !important;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 16, ../../../sass/wrappers/responsive/full-width.scss */
   .columns {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 32px;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 23, ../../../sass/wrappers/responsive/full-width.scss */
   .col-2, .col-3 {
     width: 100% !important;
   }
 }
 
-/* line 29, ../../../sass/wrappers/responsive/full-width.scss */
 table {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;
 }
 
-/*# sourceMappingURL=full-width.css.map */
-
 </style>
   <style type="text/css">
 @media (max-width: 600px) {
-  /* line 7, ../../../sass/sections/responsive/container.scss */
   .container {
     width: 100% !important;
   }
 }
 
-/*# sourceMappingURL=container.css.map */
-
 </style>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; width: 100%; height: 100%; line-height: 1;">
-  <table class="body" style="border-collapse: collapse; border-spacing: 0; font-family: aig_futuraregular, sans-serif; background: #fff; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; -moz-font-feature-settings: 'liga' on; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%; height: 100%;">
+  <!-- Hidden preheader text -->
+  <div style="display: none; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    Preheader text goes here - this will show in email preview
+    &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;
+  </div>
+
+  <table role="presentation" class="body body-bg content-bg" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; background: #fff; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; -moz-font-feature-settings: 'liga' on; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%; height: 100%;">
     <tr>
       <td style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif;">
-        <table align="center" class="wrapper" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; width: 100%;">
+        <table role="presentation" align="center" class="wrapper" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; width: 100%;">
           <tr>
             <td style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif;">
-              <table class="preheader" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; color: #767676; width: 620px; margin: auto;">
+              <!--[if mso]>
+              <table role="presentation" width="620" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tr><td>
+              <![endif]-->
+              <table role="presentation" class="preheader" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; color: #767676; width: 620px; margin: auto;">
                 <tr>
-                  <td style="margin: 0; border: 0; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px; font-size: 10px;">preheader text goes here <br>
-                  <a href="#" style="color: #767676;">link in preheader</a>
+                  <td class="dark-text-secondary" style="margin: 0; border: 0; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px; font-size: 10px;">
+                  <a href="#" style="color: #767676;">View in browser</a>
                   </td>
                 </tr>
               </table>
-              <table class="main" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; color: #767676; background: #fff; width: 100%;">
+              <!--[if mso]>
+              </td></tr>
+              </table>
+              <![endif]-->
+              <table role="presentation" class="main" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; color: #767676; background: #fff; width: 100%;">
                 <tr>
-                  <td style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif;">
+                  <td class="dark-text" style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif;">
                   <!-- Remove the text below this comment and insert header/content sections -->
                   body content goes here
                   <!-- Remove the text above this comment and insert header/content sections -->
                   </td>
                 </tr>
               </table>
-              <table class="footer" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; color: #767676; width: 620px; margin: auto;">
+              <!--[if mso]>
+              <table role="presentation" width="620" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tr><td>
+              <![endif]-->
+              <table role="presentation" class="footer" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; color: #767676; width: 620px; margin: auto;">
                 <tr>
-                  <td style="margin: 0; border: 0; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px; font-size: 10px;">footer text goes here <br>
+                  <td class="dark-text-secondary" style="margin: 0; border: 0; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px; font-size: 10px;">footer text goes here <br>
                   <a href="#" style="color: #767676;">link in footer</a>
                   </td>
                 </tr>
               </table>
+              <!--[if mso]>
+              </td></tr>
+              </table>
+              <![endif]-->
             </td>
           </tr>
         </table>
