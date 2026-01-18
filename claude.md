@@ -246,16 +246,98 @@ build/html/
 
 These files have all CSS inlined and are ready to use in email campaigns.
 
+## Email Client Targets
+
+Components are designed and tested for compatibility with:
+- **iPhone Mail** (latest iOS)
+- **Android Mail app**
+- **Gmail mobile apps** (iOS & Android)
+- **Desktop Gmail** (web)
+- **Apple Mail**
+- **Outlook 2016**
+
+## Responsive & Dark Mode Requirements
+
+### Desktop Layout
+- Maximum width: 600px
+- Centered layout with side gutters
+- All styles must be inlined for Gmail compatibility
+
+### Mobile Breakpoint
+```css
+@media (max-width: 600px) {
+  /* Mobile-specific styles */
+}
+```
+- Full-width layout on mobile devices
+- Columns stack vertically
+- Touch-friendly button sizes
+- Optimized font sizes for readability
+
+### Dark Mode Support
+- CSS classes and media queries for dark mode detection
+- Contrast-appropriate color schemes
+- Background colors that adapt to dark themes
+- Test in iOS Mail, Gmail, and Outlook dark modes
+
+## Coding Standards
+
+### Critical Requirements
+
+1. **Inline All Styles**
+   - Gmail strips `<style>` tags from emails
+   - All CSS must be inlined as style attributes
+   - Build process handles inlining automatically via grunt-email-builder
+
+2. **Table-Based Layouts**
+   - Use tables for layout structure (not divs)
+   - Essential for Outlook 2016 compatibility
+   - Nested tables for complex layouts
+
+3. **Image Accessibility**
+   - All images require `alt` attributes
+   - Descriptive alt text for screen readers
+   - Consider what displays when images are blocked
+
+4. **MSO Conditionals**
+   - Use MSO conditional comments for Outlook-specific fixes
+   ```html
+   <!--[if mso]>
+     <table>...</table>
+   <![endif]-->
+   ```
+
+5. **Font Stack**
+   - Recommended: `'Noto Sans', 'Source Sans Pro', Arial, sans-serif`
+   - Web-safe fallbacks required
+   - Test font rendering across email clients
+
+### Brand Color Palette Example
+
+When implementing branded emails, define your color palette clearly. Example from Zurich Travel Insurance project:
+
+```css
+Navy: #003d6e
+Zurich Blue: #0076be
+Purple: #302261
+Teal: #64c5b9
+Pink: #db5989
+Red Accent: #af0827
+```
+
+Use CSS variables or SCSS variables for consistent color application across components.
+
 ## Key Features
 
 ### Responsive Design
 All components include mobile-optimized styles that adapt to small screens using media queries and fluid layouts.
 
 ### Email Client Compatibility
-- Table-based layouts for maximum compatibility
-- Inline CSS for email clients that strip `<style>` tags
-- MSO conditional comments for Outlook
-- Tested across major email clients
+- Table-based layouts for maximum compatibility across all clients
+- All CSS inlined automatically (Gmail requirement)
+- MSO conditional comments for Outlook 2016
+- Dark mode support via media queries and CSS classes
+- Tested across iPhone Mail, Android Mail, Gmail, Apple Mail, and Outlook
 
 ### Modular & DRY
 - Each component is self-contained with its own styles
