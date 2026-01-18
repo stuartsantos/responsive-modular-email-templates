@@ -1,84 +1,47 @@
-
-<style type="text/css">
-@media (max-width: 600px) {
-  /* line 7, ../../../sass/components/responsive/table.scss */
-  .table {
-    width: 100%;
-  }
-  /* line 10, ../../../sass/components/responsive/table.scss */
-  .table thead {
-    display: none;
-  }
-  /* line 13, ../../../sass/components/responsive/table.scss */
-  .table td {
-    display: block;
-    text-align: right;
-    padding: 16px 24px !important;
-  }
-  /* line 17, ../../../sass/components/responsive/table.scss */
-  .table td:before {
-    content: attr(data-label);
-    float: left;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", "Avenir Next", "Calibri", sans-serif;
-    color: #001871;
-  }
-  /* line 25, ../../../sass/components/responsive/table.scss */
-  .table tr {
-    display: block;
-    margin-bottom: 24px;
-    border: 1px solid;
-    border-bottom: 0;
-  }
-  /* line 30, ../../../sass/components/responsive/table.scss */
-  .table tr:last-child td {
-    border-bottom: 1px solid !important;
-  }
-  /* line 32, ../../../sass/components/responsive/table.scss */
-  .table tr:last-child td:last-child {
-    border-bottom: 0;
-  }
-}
-
-/*# sourceMappingURL=table.css.map */
-
-</style>
-
-<table class="wrapper" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; margin: 16px 0; width: 100%;">
+<!-- Note: Responsive table styles should be added to the wrapper's <head> section -->
+<!--[if mso]>
+<table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr><td>
+<![endif]-->
+<table role="presentation" class="wrapper" style="border-collapse: collapse; border-spacing: 0; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; margin: 16px 0; width: 100%;">
   <tr>
-    <td class="spacer" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 0;"> </td>
-    <td style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif;">
-      <table align="center" class="table" style="border-collapse: collapse; border-spacing: 0; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif;">
+    <td class="spacer" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 0;"> </td>
+    <td style="margin: 0; padding: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif;">
+      <table align="center" class="table" style="border-collapse: collapse; border-spacing: 0; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif;">
         <thead>
           <tr>
-            <th style="font-weight: bold; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px; padding-left: 0;">Product</th>
-            <th style="font-weight: bold; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px;">Price</th>
-            <th style="font-weight: bold; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px;">Benefit</th>
-            <th style="font-weight: bold; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px;">Cover</th>
+            <th style="font-weight: bold; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px; padding-left: 0;">Product</th>
+            <th style="font-weight: bold; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px;">Price</th>
+            <th style="font-weight: bold; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px;">Benefit</th>
+            <th style="font-weight: bold; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; text-align: left; font-size: 18px; color: #001871; padding: 0 24px;">Cover</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td data-label="Product" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid; padding-left: 0;">Auto</td>
-            <td data-label="Price" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid;">$125/month</td>
-            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid;">XLNT Driver</td>
-            <td data-label="Cover" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid;">Individual</td>
+            <td data-label="Product" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid; padding-left: 0;">Auto</td>
+            <td data-label="Price" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid;">$125/month</td>
+            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid;">XLNT Driver</td>
+            <td data-label="Cover" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid;">Individual</td>
           </tr>
           <tr>
-            <td data-label="Product" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid; padding-left: 0;">Travel</td>
-            <td data-label="Price" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid;">$10</td>
-            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid;">Multi-Trip</td>
-            <td data-label="Cover" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: 1px solid;">Family</td>
+            <td data-label="Product" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid; padding-left: 0;">Travel</td>
+            <td data-label="Price" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid;">$10</td>
+            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid;">Multi-Trip</td>
+            <td data-label="Cover" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: 1px solid;">Family</td>
           </tr>
           <tr>
-            <td data-label="Product" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; padding-left: 0; border-bottom: none;">Home</td>
-            <td data-label="Price" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: none;">$200/month</td>
-            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: none;">Possessions</td>
-            <td data-label="Cover" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 24px; border-bottom: none;">Rental</td>
+            <td data-label="Product" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; padding-left: 0; border-bottom: none;">Home</td>
+            <td data-label="Price" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: none;">$200/month</td>
+            <td data-label="Benefit" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: none;">Possessions</td>
+            <td data-label="Cover" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 24px; border-bottom: none;">Rental</td>
           </tr>
         </tbody>
       </table>
     </td>
-    <td class="spacer" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Source Sans Pro', 'Avenir Next', 'Calibri', sans-serif; padding: 16px 0;"> </td>
+    <td class="spacer" style="margin: 0; border: 0; font-size: 16px; vertical-align: baseline; font-family: 'Noto Sans', 'Source Sans Pro', Arial, sans-serif; padding: 16px 0;"> </td>
   </tr>
 </table>
+<!--[if mso]>
+</td></tr>
+</table>
+<![endif]-->
